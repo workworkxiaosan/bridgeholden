@@ -1,0 +1,1481 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "flag": "🇬🇧"
+    },
+    {
+      "code": "zh-TW",
+      "label": "繁體中文",
+      "flag": "🇲🇴"
+    },
+    {
+      "code": "zh-CN",
+      "label": "简体中文",
+      "flag": "🇨🇳"
+    },
+    {
+      "code": "pt",
+      "label": "Português",
+      "flag": "🇵🇹"
+    }
+  ],
+  "default_lang": "en",
+  "site_name": "澳門橋霍頓有限公司",
+  "site_name_en": "United Macao Bridge Holden Corporation Limited",
+  "site_url": "https://bridgeholdengroup.com",
+  "email": "bridgeHolden@163.com",
+  "whatsapp": "+853 66175570",
+  "whatsapp_link": "https://wa.me/85366175570",
+  "social": {
+    "facebook": "#",
+    "linkedin": "#",
+    "twitter": "#"
+  },
+  "stats": [
+    {
+      "number": "47+",
+      "key": "experts",
+      "icon": "users"
+    },
+    {
+      "number": "23",
+      "key": "network",
+      "icon": "globe"
+    },
+    {
+      "number": "12+",
+      "key": "cardiology",
+      "icon": "heart"
+    },
+    {
+      "number": "89%",
+      "key": "supply",
+      "icon": "box"
+    }
+  ],
+  "images": {
+    "hero_home": "hero-home.webp",
+    "about_mission": "about-mission.webp",
+    "about_presence": "about-presence.webp",
+    "advisory_hero": "advisory-hero.webp",
+    "service_trade": "service-trade.webp",
+    "service_consulting": "service-consulting.webp",
+    "service_premium": "about-mission.webp"
+  },
+  "i18n": {
+    "zh-TW": {
+      "nav": {
+        "home": "首頁",
+        "about": "關於我們",
+        "services": "服務項目",
+        "advisoryBoard": "國際顧問委員會",
+        "successStories": "成功案例",
+        "contact": "聯絡我們"
+      },
+      "hero": {
+        "headline": "全球醫療。精準解決方案。值得信賴的專業。",
+        "subheading": "連接全球醫療卓越與優質跨境醫療解決方案。",
+        "tagline": "全球醫療精準解決方案--您身邊值得信賴的專業",
+        "ctaPrimary": "聯絡專家",
+        "ctaSecondary": "獲取個性化方案"
+      },
+      "company": {
+        "description": "澳門橋霍頓有限公司-您身邊鏈接全球醫療卓越與優質跨境醫療解決方案的合作夥伴"
+      },
+      "stats": {
+        "experts": "國際醫療專家",
+        "network": "跨境醫療網絡",
+        "cardiology": "先進專科服務",
+        "supply": "全球供應鏈能力"
+      },
+      "services": {
+        "title": "核心服務",
+        "medicalTrade": {
+          "title": "醫療貿易服務",
+          "description": "全球醫療設備採購、國際供應鏈管理、質量保證與認證支持。",
+          "cta": "了解更多"
+        },
+        "consulting": {
+          "title": "醫療諮詢",
+          "description": "跨境醫療協調、專家網絡連接、醫療資源整合與戰略規劃。",
+          "cta": "預約諮詢"
+        },
+        "premium": {
+          "title": "優質醫療服務",
+          "description": "國際專家諮詢、複雜病例管理、個性化治療方案。",
+          "cta": "開始您的旅程"
+        }
+      },
+      "advisoryBoardNew": {
+        "hero": {
+          "title": "國際專家團隊",
+          "subtitle": "將全球心臟專業知識與優質跨境醫療保健聯繫起來",
+          "cta1": "聯繫專家",
+          "cta2": "預約諮詢"
+        },
+        "about": {
+          "description": "澳門橋霍頓有限公司整合優質國際醫療資源，依託吉林心臟病醫院的國際專家團隊，為高端客戶提供專業、值得信賴的心血管專科諮詢、跨境醫療評估、專家會診協調及健康管理支持。",
+          "disclaimer": "澳門橋霍頓有限公司提供諮詢協調和專家資源匹配。本公司不提供直接的醫療治療服務。服務包括：專家資源協調、醫療諮詢促進、健康管理建議。"
+        },
+        "categories": [
+          {
+            "name": "心臟外科",
+            "desc": "複雜心血管疾病的高級手術評估和干預策略。"
+          },
+          {
+            "name": "心臟內科",
+            "desc": "全面的心血管診斷、慢性病管理和預防性護理。"
+          },
+          {
+            "name": "麻醉科",
+            "desc": "圍手術期安全評估、風險緩解和高級麻醉支持。"
+          }
+        ],
+        "process": {
+          "title": "諮詢流程",
+          "steps": [
+            {
+              "title": "提交諮詢",
+              "desc": "提供您的初步醫療信息和具體需求。"
+            },
+            {
+              "title": "需求評估",
+              "desc": "我們的團隊審查您的案例以確定最合適的專家。"
+            },
+            {
+              "title": "專家匹配",
+              "desc": "與領先的國際心血管專家聯繫。"
+            },
+            {
+              "title": "私人會診協調",
+              "desc": "促進全面的醫療審查和戰略規劃。"
+            }
+          ]
+        },
+        "experts": [
+          {
+            "name": "Massimo Giovanni Lemma",
+            "enName": "Massimo Giovanni Lemma",
+            "title": "心臟外科主任",
+            "category": "心臟外科",
+            "image": "expert-lemma.webp",
+            "bio": "Massimo Giovanni Lemma 醫生在心臟外科領域具有無與倫比的領導力，為我們的顧問委員會帶來了數十年的國際臨床經驗。他專注於為面臨複雜心血管疾病的高端患者提供全面的術前評估和專家會診支持。他的權威指導確保每位患者都能獲得針對其獨特解剖和臨床需求量身定制的、經過精心評估的世界級手術策略，從而彌合全球卓越醫療與個性化護理之間的差距。"
+          },
+          {
+            "name": "Francesco Lavarra",
+            "enName": "Francesco Lavarra",
+            "title": "心臟內科主任",
+            "category": "心臟內科",
+            "image": "expert-lavarra.webp",
+            "bio": "作為心臟內科主任，Francesco Lavarra 醫生在心血管醫學領域提供深刻的專業判斷和豐富的經驗。他是慢性病管理和複雜心臟診斷領域的權威。Lavarra 醫生提供關鍵的專科會診支持，指導高端客戶完成複雜的健康評估，並確保他們的長期心臟護理策略符合國際最高醫療卓越標準。"
+          },
+          {
+            "name": "Marcio Scorsin",
+            "enName": "Marcio Scorsin",
+            "title": "心臟外科專家",
+            "category": "心臟外科",
+            "image": "expert-scorsin.webp",
+            "bio": "Marcio Scorsin 醫生是一位傑出的心臟外科專家，以其深厚的專業知識和對多學科合作的承諾而聞名。他在提供高價值的跨境醫療會診方面發揮著關鍵作用，確保高端客戶受益於綜合的、最先進的外科視角。他的方法強調嚴格的臨床評估和與國際醫療團隊的無縫協調，以優化治療路徑並提高整體患者安全和預後。"
+          },
+          {
+            "name": "Andrea Mangini",
+            "enName": "Andrea Mangini",
+            "title": "心臟外科專家",
+            "category": "心臟外科",
+            "image": "expert-mangini.webp",
+            "bio": "Andrea Mangini 醫生為我們的國際顧問小組帶來了卓越的心血管外科專業知識。他致力於高端患者會診，擅長在協作環境中工作，與全球醫療團隊密切合作設計複雜的干預策略。他對先進手術技術和以患者為中心的護理模式的深刻理解，使他能夠為應對複雜心臟挑戰的個人提供寶貴的第二意見和戰略性健康管理建議。"
+          },
+          {
+            "name": "Vasile Sirbu",
+            "enName": "Vasile Sirbu",
+            "title": "心臟內科專家",
+            "category": "心臟內科",
+            "image": "expert-sirbu.webp",
+            "bio": "Vasile Sirbu 醫生是一位受人尊敬的心臟內科專家，專注於全面的心血管評估和高端健康管理支持。他促進高水平的跨境專家會診，為客戶提供有關其心臟健康和預防性護理策略的詳細見解。Sirbu 醫生細緻的分析能力和對患者福祉的奉獻精神，使他成為尋求權威指導和優化長期心血管管理計劃的個人的不可或缺的資源。"
+          },
+          {
+            "name": "Kristian Desa",
+            "enName": "Kristian Desa",
+            "title": "麻醉科專家",
+            "category": "麻醉科",
+            "image": "expert-desa.webp",
+            "bio": "Kristian Desa 醫生是一位頂尖的麻醉科專家，提供關鍵的圍手術期安全評估和高級麻醉支持。他的專業知識對於評估患者是否準備好接受複雜的心血管干預至關重要。憑藉在國際醫療合作方面的深厚背景，Desa 醫生確保所有會診策略都將患者安全、風險緩解和最佳恢復路徑放在首位，為接受重大醫療評估的高端客戶帶來安心。"
+          }
+        ]
+      },
+      "successStoriesNew": {
+        "hero": {
+          "title": "利用全球專業知識轉變危急心臟病症",
+          "subtitle": "探索我們協調的專家干預和國際醫療合作如何為複雜心血管疾病患者恢復生活質量。"
+        },
+        "disclaimer": "澳門橋霍頓有限公司提供諮詢協調和專家資源匹配。本公司不提供直接的醫療治療服務。服務包括：專家資源協調、醫療諮詢促進、健康管理建議。",
+        "categories": {
+          "cardiology": "心臟內科",
+          "surgery": "心臟外科"
+        },
+        "cta": {
+          "btn1": "申請專家評估",
+          "btn2": "開始諮詢"
+        },
+        "cases": [
+          {
+            "id": 1,
+            "category": "cardiology",
+            "title": "關鍵時刻干預：在黃金窗口內恢復心臟灌注",
+            "challenge": "需要立即干預的急性心肌梗塞。",
+            "solution": "快速診斷和經皮冠狀動脈介入治療 (PCI)。",
+            "outcome": "在 65 分鐘的窗口期內成功實現再灌注。",
+            "summary": "符合國際協議標準的緊急心臟救援。"
+          },
+          {
+            "id": 2,
+            "category": "cardiology",
+            "title": "慢性完全閉塞再通：恢復關鍵血管的血流",
+            "challenge": "左前降支 (LAD) 完全閉塞。",
+            "solution": "採用支架的高級逆行再通技術。",
+            "outcome": "成功實現長期血管通暢。",
+            "summary": "具有專業知識的複雜冠狀動脈干預。"
+          },
+          {
+            "id": 3,
+            "category": "cardiology",
+            "title": "多階段冠狀動脈干預：改變高危患者的軌跡",
+            "challenge": "嚴重三支血管病變。",
+            "solution": "分階段干預策略。",
+            "outcome": "運動耐量和生活質量顯著提高。",
+            "summary": "全面的多支血管疾病管理。"
+          },
+          {
+            "id": 4,
+            "category": "cardiology",
+            "title": "全身性血管疾病管理：雙側腎動脈干預",
+            "challenge": "嚴重的雙側腎動脈狹窄 (99%)。",
+            "solution": "雙側支架植入術。",
+            "outcome": "血壓得到控制並保留了腎功能。",
+            "summary": "符合國際標準的全身性血管疾病干預。"
+          },
+          {
+            "id": 5,
+            "category": "cardiology",
+            "title": "長期疾病管理：恢復複雜心力衰竭的生活質量",
+            "challenge": "患有慢性冠心病並伴有 10 年進行性心力衰竭。",
+            "solution": "全面的心臟干預和藥物優化。",
+            "outcome": "功能能力顯著改善。",
+            "summary": "專家協調的長期慢性病管理。"
+          },
+          {
+            "id": 6,
+            "category": "cardiology",
+            "title": "老年患者的安全心臟設備植入：恢復正常心律",
+            "challenge": "89 歲患者出現症狀性心律失常。",
+            "solution": "採用圍手術期安全協議的微創起搏器植入術。",
+            "outcome": "成功植入設備並恢復正常心律。",
+            "summary": "高危老年患者的安全干預。"
+          },
+          {
+            "id": 7,
+            "category": "surgery",
+            "title": "瓣膜重建：通過手術精度恢復心臟功能",
+            "challenge": "嚴重的瓣膜疾病伴心力衰竭。",
+            "solution": "採用先進技術的瓣膜修復/置換術。",
+            "outcome": "功能恢復，症狀消除。",
+            "summary": "具有國際外科專業知識的複雜瓣膜手術。"
+          },
+          {
+            "id": 8,
+            "category": "surgery",
+            "title": "微創主動脈瓣置換術：先進的外科創新",
+            "challenge": "主動脈瓣疾病。",
+            "solution": "小切口微創入路。",
+            "outcome": "成功置換並快速康復。",
+            "summary": "具有優質患者預後的先進外科技術。"
+          },
+          {
+            "id": 9,
+            "category": "surgery",
+            "title": "複雜先天性心臟修復：恢復正常心臟解剖結構",
+            "challenge": "複雜的先天性心臟缺陷。",
+            "solution": "專門的兒科心臟外科解剖重建。",
+            "outcome": "成功修復並恢復正常功能。",
+            "summary": "專業的兒科心臟外科專業知識。"
+          },
+          {
+            "id": 10,
+            "category": "surgery",
+            "title": "多瓣膜手術：複雜病理的協調干預",
+            "challenge": "多瓣膜疾病（二尖瓣 + 三尖瓣）。",
+            "solution": "聯合瓣膜修復/置換及心耳管理。",
+            "outcome": "成功干預並恢復血流動力學。",
+            "summary": "專家協調的複雜多瓣膜手術。"
+          },
+          {
+            "id": 11,
+            "category": "surgery",
+            "title": "左心室流出道梗阻解除：恢復心臟血流",
+            "challenge": "肥厚型梗阻性心肌病 (HOCM) 伴顯著 LVOT 梗阻。",
+            "solution": "外科室間隔心肌切除術解除 LVOT 梗阻。",
+            "outcome": "消除梗阻並提高運動能力。",
+            "summary": "複雜心肌病的專門手術。"
+          },
+          {
+            "id": 12,
+            "category": "surgery",
+            "title": "多學科心臟護理：複雜疾病的綜合方法",
+            "challenge": "需要協調外科和內科管理的多支血管疾病。",
+            "solution": "採用綜合治療策略的多學科團隊 (MDT) 方法。",
+            "outcome": "成功干預並優化預後。",
+            "summary": "協調的多學科心臟護理。"
+          }
+        ]
+      },
+      "about": {
+        "title": "關於澳門橋霍頓有限公司",
+        "mission": "我們的使命",
+        "missionText": "澳門橋霍頓有限公司致力於連接全球醫療卓越與優質跨境醫療解決方案。我們專注於醫療設備貿易、醫療諮詢和國際專業知識，為全球客戶提供精準、值得信賴的醫療服務。",
+        "competencies": "核心能力",
+        "competency1": "醫療設備採購與國際供應鏈管理",
+        "competency2": "跨境醫療諮詢與資源整合",
+        "competency3": "國際專科專業知識與專家網絡",
+        "competency4": "複雜病例管理與治療協調",
+        "presence": "國際影響力",
+        "presenceText": "總部位於澳門，我們建立了廣泛的全球網絡，與領先的醫療機構和專家合作，為客戶提供世界級的醫療解決方案。",
+        "values": "我們的價值觀",
+        "value1": "信任：建立長期、值得信賴的合作關係",
+        "value2": "精準：提供準確、專業的醫療解決方案",
+        "value3": "國際標準：遵循全球最高醫療標準",
+        "value4": "以患者為中心：始終將患者需求放在首位"
+      },
+      "servicesPage": {
+        "title": "我們的服務",
+        "medicalTrade": {
+          "title": "醫療貿易服務",
+          "description": "全球醫療設備採購與供應鏈管理",
+          "benefit1": "國際醫療設備採購",
+          "benefit2": "質量保證與認證支持",
+          "benefit3": "供應鏈優化與物流管理",
+          "benefit4": "合規性與監管支持",
+          "cta": "了解更多"
+        },
+        "consulting": {
+          "title": "醫療諮詢",
+          "description": "跨境醫療協調與專家網絡連接",
+          "benefit1": "跨境醫療協調",
+          "benefit2": "專家網絡連接",
+          "benefit3": "醫療資源整合",
+          "benefit4": "戰略規劃與實施",
+          "cta": "預約諮詢"
+        },
+        "premium": {
+          "title": "優質醫療服務",
+          "description": "國際專家諮詢與複雜病例管理",
+          "benefit1": "國際專家諮詢",
+          "benefit2": "複雜病例管理",
+          "benefit3": "個性化治療方案",
+          "benefit4": "持續跟進與支持",
+          "cta": "開始您的旅程"
+        }
+      },
+      "contact": {
+        "title": "聯絡我們",
+        "subtitle": "與我們的團隊聯繫，開始您的醫療之旅",
+        "contactForm": "聯絡表單",
+        "consultationForm": "諮詢預約表單",
+        "name": "姓名",
+        "company": "公司/機構",
+        "country": "國家/地區",
+        "phone": "電話/WhatsApp",
+        "email": "電子郵件",
+        "message": "訊息",
+        "serviceType": "服務類型",
+        "preferredTime": "首選諮詢時間",
+        "additionalNotes": "附加說明",
+        "submit": "提交",
+        "submitting": "提交中...",
+        "successMessage": "表單已成功提交",
+        "errorMessage": "提交失敗，請重試",
+        "companyInfo": "公司資訊",
+        "address": "澳門羅理基博士大馬路600-E號第一國際商業中心9樓905室",
+        "businessHours": "營業時間",
+        "businessHoursText": "週一至週五：9:00 - 18:00",
+        "serviceTypes": {
+          "medicalTrade": "醫療貿易",
+          "consulting": "醫療諮詢",
+          "premium": "優質醫療服務",
+          "other": "其他"
+        }
+      },
+      "footer": {
+        "description": "鏈接全球卓越醫療服務和跨境供應鏈解決方案",
+        "quickLinks": "快速連結",
+        "contactInfo": "聯絡資訊",
+        "businessHours": "營業時間",
+        "businessHoursText": "週一至週五：9:00 - 18:00",
+        "followUs": "關注我們",
+        "copyright": "© 2026 澳門橋霍頓有限公司。保留所有權利。",
+        "privacy": "隱私政策",
+        "terms": "服務條款"
+      }
+    },
+    "zh-CN": {
+      "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "services": "服务项目",
+        "advisoryBoard": "国际顾问委员会",
+        "successStories": "成功案例",
+        "contact": "联络我们"
+      },
+      "hero": {
+        "headline": "全球医疗。精准解决方案。值得信赖的专业。",
+        "subheading": "连接全球医疗卓越与优质跨境医疗解决方案。",
+        "tagline": "全球医疗精准解决方案--您身边值得信赖的专业",
+        "ctaPrimary": "联络专家",
+        "ctaSecondary": "获取个性化方案"
+      },
+      "company": {
+        "description": "澳门桥霍顿有限公司-您身边链接全球医疗卓越与优质跨境医疗解决方案的合作伙伴"
+      },
+      "stats": {
+        "experts": "国际医疗专家",
+        "network": "跨境医疗网络",
+        "cardiology": "先进专科服务",
+        "supply": "全球供应链能力"
+      },
+      "services": {
+        "title": "核心服务",
+        "medicalTrade": {
+          "title": "医疗贸易服务",
+          "description": "全球医疗设备采购、国际供应链管理、质量保证与认证支持。",
+          "cta": "了解更多"
+        },
+        "consulting": {
+          "title": "医疗咨询",
+          "description": "跨境医疗协调、专家网络连接、医疗资源整合与战略规划。",
+          "cta": "预约咨询"
+        },
+        "premium": {
+          "title": "优质医疗服务",
+          "description": "国际专家咨询、复杂病例管理、个性化治疗方案。",
+          "cta": "开始您的旅程"
+        }
+      },
+      "advisoryBoardNew": {
+        "hero": {
+          "title": "国际专家团队",
+          "subtitle": "将全球心脏专业知识与优质跨境医疗保健联系起来",
+          "cta1": "联系专家",
+          "cta2": "预约咨询"
+        },
+        "about": {
+          "description": "澳门桥霍顿有限公司整合优质国际医疗资源，依托吉林心脏病医院的国际专家团队，为高端客户提供专业、值得信赖的心血管专科咨询、跨境医疗评估、专家会诊协调及健康管理支持。",
+          "disclaimer": "澳门桥霍顿有限公司提供咨询协调和专家资源匹配。本公司不提供直接的医疗治疗服务。服务包括：专家资源协调、医疗咨询促进、健康管理建议。"
+        },
+        "categories": [
+          {
+            "name": "心脏外科",
+            "desc": "复杂心血管疾病的高级手术评估和干预策略。"
+          },
+          {
+            "name": "心脏内科",
+            "desc": "全面的心血管诊断、慢性病管理和预防性护理。"
+          },
+          {
+            "name": "麻醉科",
+            "desc": "围手术期安全评估、风险缓解和高级麻醉支持。"
+          }
+        ],
+        "process": {
+          "title": "咨询流程",
+          "steps": [
+            {
+              "title": "提交咨询",
+              "desc": "提供您的初步医疗信息和具体需求。"
+            },
+            {
+              "title": "需求评估",
+              "desc": "我们的团队审查您的案例以确定最合适的专家。"
+            },
+            {
+              "title": "专家匹配",
+              "desc": "与领先的国际心血管专家联系。"
+            },
+            {
+              "title": "私人会诊协调",
+              "desc": "促进全面的医疗审查和战略规划。"
+            }
+          ]
+        },
+        "experts": [
+          {
+            "name": "Massimo Giovanni Lemma",
+            "enName": "Massimo Giovanni Lemma",
+            "title": "心脏外科主任",
+            "category": "心脏外科",
+            "image": "expert-lemma.webp",
+            "bio": "Massimo Giovanni Lemma 医生在心脏外科领域具有无与伦比的领导力，为我们的顾问委员会带来了数十年的国际临床经验。他专注于为面临复杂心血管疾病的高端患者提供全面的术前评估和专家会诊支持。他的权威指导确保每位患者都能获得针对其独特解剖和临床需求量身定制的、经过精心评估的世界级手术策略，从而弥合全球卓越医疗与个性化护理之间的差距。"
+          },
+          {
+            "name": "Francesco Lavarra",
+            "enName": "Francesco Lavarra",
+            "title": "心脏内科主任",
+            "category": "心脏内科",
+            "image": "expert-lavarra.webp",
+            "bio": "作为心脏内科主任，Francesco Lavarra 医生在心血管医学领域提供深刻的专业判断和丰富的经验。他是慢性病管理和复杂心脏诊断领域的权威。Lavarra 医生提供关键的专科会诊支持，指导高端客户完成复杂的健康评估，并确保他们的长期心脏护理策略符合国际最高医疗卓越标准。"
+          },
+          {
+            "name": "Marcio Scorsin",
+            "enName": "Marcio Scorsin",
+            "title": "心脏外科专家",
+            "category": "心脏外科",
+            "image": "expert-scorsin.webp",
+            "bio": "Marcio Scorsin 医生是一位杰出的心脏外科专家，以其深厚的专业知识和对多学科合作的承诺而闻名。他在提供高价值的跨境医疗会诊方面发挥着关键作用，确保高端客户受益于综合的、最先进的外科视角。他的方法强调严格的临床评估和与国际医疗团队的无缝协调，以优化治疗路径并提高整体患者安全和预后。"
+          },
+          {
+            "name": "Andrea Mangini",
+            "enName": "Andrea Mangini",
+            "title": "心脏外科专家",
+            "category": "心脏外科",
+            "image": "expert-mangini.webp",
+            "bio": "Andrea Mangini 医生为我们的国际顾问小组带来了卓越的心血管外科专业知识。他致力于高端患者会诊，擅长在协作环境中工作，与全球医疗团队密切合作设计复杂的干预策略。他对先进手术技术和以患者为中心的护理模式的深刻理解，使他能够为应对复杂心脏挑战的个人提供宝贵的第二意见和战略性健康管理建议。"
+          },
+          {
+            "name": "Vasile Sirbu",
+            "enName": "Vasile Sirbu",
+            "title": "心脏内科专家",
+            "category": "心脏内科",
+            "image": "expert-sirbu.webp",
+            "bio": "Vasile Sirbu 医生是一位受人尊敬的心脏内科专家，专注于全面的心血管评估和高端健康管理支持。他促进高水平的跨境专家会诊，为客户提供有关其心脏健康和预防性护理策略的详细见解。Sirbu 医生细致的分析能力和对患者福祉的奉献精神，使他成为寻求权威指导和优化长期心血管管理计划的个人的不可或缺的资源。"
+          },
+          {
+            "name": "Kristian Desa",
+            "enName": "Kristian Desa",
+            "title": "麻醉科专家",
+            "category": "麻醉科",
+            "image": "expert-desa.webp",
+            "bio": "Kristian Desa 医生是一位顶尖的麻醉科专家，提供关键的围手术期安全评估和高级麻醉支持。他的专业知识对于评估患者是否准备好接受复杂的心血管干预至关重要。凭借在国际医疗合作方面的深厚背景，Desa 医生确保所有会诊策略都将患者安全、风险缓解和最佳恢复路径放在首位，为接受重大医疗评估的高端客户带来安心。"
+          }
+        ]
+      },
+      "successStoriesNew": {
+        "hero": {
+          "title": "利用全球专业知识转变危急心脏病症",
+          "subtitle": "探索我们协调的专家干预和国际医疗合作如何为复杂心血管疾病患者恢复生活质量。"
+        },
+        "disclaimer": "澳门桥霍顿有限公司提供咨询协调和专家资源匹配。本公司不提供直接的医疗治疗服务。服务包括：专家资源协调、医疗咨询促进、健康管理建议。",
+        "categories": {
+          "cardiology": "心脏内科",
+          "surgery": "心脏外科"
+        },
+        "cta": {
+          "btn1": "申请专家评估",
+          "btn2": "开始咨询"
+        },
+        "cases": [
+          {
+            "id": 1,
+            "category": "cardiology",
+            "title": "关键时刻干预：在黄金窗口内恢复心脏灌注",
+            "challenge": "需要立即干预的急性心肌梗塞。",
+            "solution": "快速诊断和经皮冠状动脉介入治疗 (PCI)。",
+            "outcome": "在 65 分钟的窗口期内成功实现再灌注。",
+            "summary": "符合国际协议标准的紧急心脏救援。"
+          },
+          {
+            "id": 2,
+            "category": "cardiology",
+            "title": "慢性完全闭塞再通：恢复关键血管的血流",
+            "challenge": "左前降支 (LAD) 完全闭塞。",
+            "solution": "采用支架的高级逆行再通技术。",
+            "outcome": "成功实现长期血管通畅。",
+            "summary": "具有专业知识的复杂冠状动脉干预。"
+          },
+          {
+            "id": 3,
+            "category": "cardiology",
+            "title": "多阶段冠状动脉干预：改变高危患者的轨迹",
+            "challenge": "严重三支血管病变。",
+            "solution": "分阶段干预策略。",
+            "outcome": "运动耐量和生活质量显著提高。",
+            "summary": "全面的多支血管疾病管理。"
+          },
+          {
+            "id": 4,
+            "category": "cardiology",
+            "title": "全身性血管疾病管理：双侧肾动脉干预",
+            "challenge": "严重的双侧肾动脉狭窄 (99%)。",
+            "solution": "双侧支架植入术。",
+            "outcome": "血压得到控制并保留了肾功能。",
+            "summary": "符合国际标准的全身性血管疾病干预。"
+          },
+          {
+            "id": 5,
+            "category": "cardiology",
+            "title": "长期疾病管理：恢复复杂心力衰竭的生活质量",
+            "challenge": "患有慢性冠心病并伴有 10 年进行性心力衰竭。",
+            "solution": "全面的心脏干预和药物优化。",
+            "outcome": "功能能力显著改善。",
+            "summary": "专家协调的长期慢性病管理。"
+          },
+          {
+            "id": 6,
+            "category": "cardiology",
+            "title": "老年患者的安全心脏设备植入：恢复正常心律",
+            "challenge": "89 岁患者出现症状性心律失常。",
+            "solution": "采用围手术期安全协议的微创起搏器植入术。",
+            "outcome": "成功植入设备并恢复正常心律。",
+            "summary": "高危老年患者的安全干预。"
+          },
+          {
+            "id": 7,
+            "category": "surgery",
+            "title": "瓣膜重建：通过手术精度恢复心脏功能",
+            "challenge": "严重的瓣膜疾病伴心力衰竭。",
+            "solution": "采用先进技术的瓣膜修复/置换术。",
+            "outcome": "功能恢复，症状消除。",
+            "summary": "具有国际外科专业知识的复杂瓣膜手术。"
+          },
+          {
+            "id": 8,
+            "category": "surgery",
+            "title": "微创主动脉瓣置换术：先进的外科创新",
+            "challenge": "主动脉瓣疾病。",
+            "solution": "小切口微创入路。",
+            "outcome": "成功置换并快速康复。",
+            "summary": "具有优质患者预后的先进外科技术。"
+          },
+          {
+            "id": 9,
+            "category": "surgery",
+            "title": "复杂先天性心脏修复：恢复正常心脏解剖结构",
+            "challenge": "复杂的先天性心脏缺陷。",
+            "solution": "专门的儿科心脏外科解剖重建。",
+            "outcome": "成功修复并恢复正常功能。",
+            "summary": "专业的儿科心脏外科专业知识。"
+          },
+          {
+            "id": 10,
+            "category": "surgery",
+            "title": "多瓣膜手术：复杂病理的协调干预",
+            "challenge": "多瓣膜疾病（二尖瓣 + 三尖瓣）。",
+            "solution": "联合瓣膜修复/置换及心耳管理。",
+            "outcome": "成功干预并恢复血流动力学。",
+            "summary": "专家协调的复杂多瓣膜手术。"
+          },
+          {
+            "id": 11,
+            "category": "surgery",
+            "title": "左心室流出道梗阻解除：恢复心脏血流",
+            "challenge": "肥厚型梗阻性心肌病 (HOCM) 伴显著 LVOT 梗阻。",
+            "solution": "外科室间隔心肌切除术解除 LVOT 梗阻。",
+            "outcome": "消除梗阻并提高运动能力。",
+            "summary": "复杂心肌病的专门手术。"
+          },
+          {
+            "id": 12,
+            "category": "surgery",
+            "title": "多学科心脏护理：复杂疾病的综合方法",
+            "challenge": "需要协调外科和内科管理的多支血管疾病。",
+            "solution": "采用综合治疗策略的多学科团队 (MDT) 方法。",
+            "outcome": "成功干预并优化预后。",
+            "summary": "协调的多学科心脏护理。"
+          }
+        ]
+      },
+      "about": {
+        "title": "关于澳门桥霍顿有限公司",
+        "mission": "我们的使命",
+        "missionText": "澳门桥霍顿有限公司致力于连接全球医疗卓越与优质跨境医疗解决方案。我们专注于医疗设备贸易、医疗咨询和国际专业知识，为全球客户提供精准、值得信赖的医疗服务。",
+        "competencies": "核心能力",
+        "competency1": "医疗设备采购与国际供应链管理",
+        "competency2": "跨境医疗咨询与资源整合",
+        "competency3": "国际专科专业知识与专家网络",
+        "competency4": "复杂病例管理与治疗协调",
+        "presence": "国际影响力",
+        "presenceText": "总部位于澳门，我们建立了广泛的全球网络，与领先的医疗机构和专家合作，为客户提供世界级的医疗解决方案。",
+        "values": "我们的价值观",
+        "value1": "信任：建立长期、值得信赖的合作关系",
+        "value2": "精准：提供准确、专业的医疗解决方案",
+        "value3": "国际标准：遵循全球最高医疗标准",
+        "value4": "以患者为中心：始终将患者需求放在首位"
+      },
+      "servicesPage": {
+        "title": "我们的服务",
+        "medicalTrade": {
+          "title": "医疗贸易服务",
+          "description": "全球医疗设备采购与供应链管理",
+          "benefit1": "国际医疗设备采购",
+          "benefit2": "质量保证与认证支持",
+          "benefit3": "供应链优化与物流管理",
+          "benefit4": "合规性与监管支持",
+          "cta": "了解更多"
+        },
+        "consulting": {
+          "title": "医疗咨询",
+          "description": "跨境医疗协调与专家网络连接",
+          "benefit1": "跨境医疗协调",
+          "benefit2": "专家网络连接",
+          "benefit3": "医疗资源整合",
+          "benefit4": "战略规划与实施",
+          "cta": "预约咨询"
+        },
+        "premium": {
+          "title": "优质医疗服务",
+          "description": "国际专家咨询与复杂病例管理",
+          "benefit1": "国际专家咨询",
+          "benefit2": "复杂病例管理",
+          "benefit3": "个性化治疗方案",
+          "benefit4": "持续跟进与支持",
+          "cta": "开始您的旅程"
+        }
+      },
+      "contact": {
+        "title": "联络我们",
+        "subtitle": "与我们的团队联系，开始您的医疗之旅",
+        "contactForm": "联络表单",
+        "consultationForm": "咨询预约表单",
+        "name": "姓名",
+        "company": "公司/机构",
+        "country": "国家/地区",
+        "phone": "电话/WhatsApp",
+        "email": "电子邮件",
+        "message": "讯息",
+        "serviceType": "服务类型",
+        "preferredTime": "首选咨询时间",
+        "additionalNotes": "附加说明",
+        "submit": "提交",
+        "submitting": "提交中...",
+        "successMessage": "表单已成功提交",
+        "errorMessage": "提交失败，请重试",
+        "companyInfo": "公司资讯",
+        "address": "澳门罗理基博士大马路600-E号第一国际商业中心9楼905室",
+        "businessHours": "营业时间",
+        "businessHoursText": "周一至周五：9:00 - 18:00",
+        "serviceTypes": {
+          "medicalTrade": "医疗贸易",
+          "consulting": "医疗咨询",
+          "premium": "优质医疗服务",
+          "other": "其他"
+        }
+      },
+      "footer": {
+        "description": "链接全球卓越医疗服务和跨境供应链解决方案",
+        "quickLinks": "快速连结",
+        "contactInfo": "联络资讯",
+        "businessHours": "营业时间",
+        "businessHoursText": "周一至周五：9:00 - 18:00",
+        "followUs": "关注我们",
+        "copyright": "© 2026 澳门桥霍顿有限公司。保留所有权利。",
+        "privacy": "隐私政策",
+        "terms": "服务条款"
+      }
+    },
+    "en": {
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "advisoryBoard": "Advisory Board",
+        "successStories": "Success Stories",
+        "contact": "Contact"
+      },
+      "hero": {
+        "headline": "Global Healthcare. Precision Solutions. Trusted Expertise.",
+        "subheading": "Connecting Global Medical Excellence with Premium Cross-border Healthcare Solutions.",
+        "tagline": "Global Medical Excellence. Precise Solutions. Trusted Expertise at Your Side.",
+        "ctaPrimary": "Contact an Expert",
+        "ctaSecondary": "Get a Personalized Plan"
+      },
+      "company": {
+        "description": "United Macao Bridge Holden Corporation Limited - Your Trusted Partner Connecting Global Medical Excellence and Premium Cross-Border Healthcare Solutions"
+      },
+      "stats": {
+        "experts": "International Medical Experts",
+        "network": "Cross-border Medical Network",
+        "cardiology": "Advanced Specialty Services",
+        "supply": "Global Supply Chain Capability"
+      },
+      "services": {
+        "title": "Core Services",
+        "medicalTrade": {
+          "title": "Medical Trade Services",
+          "description": "Global medical device sourcing, international supply chain management, quality assurance and certification support.",
+          "cta": "Learn More"
+        },
+        "consulting": {
+          "title": "Healthcare Consulting",
+          "description": "Cross-border medical coordination, expert network connection, healthcare resource integration and strategic planning.",
+          "cta": "Book Consultation"
+        },
+        "premium": {
+          "title": "Premium Medical Services",
+          "description": "International expert consultation, complex case management, personalized treatment plans.",
+          "cta": "Start Your Journey"
+        }
+      },
+      "advisoryBoardNew": {
+        "hero": {
+          "title": "International Medical Advisory Board",
+          "subtitle": "Connecting Global Cardiac Expertise with Premium Cross-Border Healthcare",
+          "cta1": "Contact an Expert",
+          "cta2": "Book Consultation"
+        },
+        "about": {
+          "description": "United Macao Bridge Holden Corporation Limited integrates premium international medical resources, leveraging Jilin Heart Hospital's international specialist team to provide professional, trustworthy cardiovascular specialist consultation, cross-border medical assessment, expert consultation coordination, and health management support for premium clients.",
+          "disclaimer": "United Macao Bridge Holden Corporation Limited provides consultation coordination and expert resource matching. The company does NOT provide direct medical treatment services. Services include: expert resource coordination, medical consultation facilitation, health management recommendations."
+        },
+        "categories": [
+          {
+            "name": "Cardiac Surgery",
+            "desc": "Advanced surgical assessment and intervention strategies for complex cardiovascular diseases."
+          },
+          {
+            "name": "Cardiology",
+            "desc": "Comprehensive cardiovascular diagnostics, chronic disease management, and preventive care."
+          },
+          {
+            "name": "Anesthesiology",
+            "desc": "Perioperative safety assessment, risk mitigation, and advanced anesthesia support."
+          }
+        ],
+        "process": {
+          "title": "Consultation Process",
+          "steps": [
+            {
+              "title": "Submit Inquiry",
+              "desc": "Provide your initial medical information and specific needs."
+            },
+            {
+              "title": "Needs Assessment",
+              "desc": "Our team reviews your case to identify the most suitable experts."
+            },
+            {
+              "title": "Specialist Matching",
+              "desc": "Connect with leading international cardiovascular specialists."
+            },
+            {
+              "title": "Private Consultation Coordination",
+              "desc": "Facilitating comprehensive medical review and strategic planning."
+            }
+          ]
+        },
+        "experts": [
+          {
+            "name": "Massimo Giovanni Lemma",
+            "enName": "Massimo Giovanni Lemma",
+            "title": "Director of Cardiac Surgery",
+            "category": "Cardiac Surgery",
+            "image": "expert-lemma.webp",
+            "bio": "Dr. Massimo Giovanni Lemma provides unparalleled leadership in cardiac surgery, bringing decades of international clinical expertise to our advisory board. He specializes in comprehensive pre-operative assessments and expert consultation support for premium patients facing complex cardiovascular conditions. His authoritative guidance ensures that every patient receives a meticulously evaluated, world-class surgical strategy tailored to their unique anatomical and clinical needs, bridging the gap between global medical excellence and personalized care."
+          },
+          {
+            "name": "Francesco Lavarra",
+            "enName": "Francesco Lavarra",
+            "title": "Director of Cardiology",
+            "category": "Cardiology",
+            "image": "expert-lavarra.webp",
+            "bio": "As the Director of Cardiology, Dr. Francesco Lavarra offers profound professional judgment and extensive experience in the realm of cardiovascular medicine. He is a leading authority in chronic disease management and complex cardiac diagnostics. Dr. Lavarra provides critical specialist consultation support, guiding premium clients through intricate health assessments and ensuring that their long-term cardiac care strategies align with the highest international standards of medical excellence."
+          },
+          {
+            "name": "Marcio Scorsin",
+            "enName": "Marcio Scorsin",
+            "title": "Cardiac Surgery Specialist",
+            "category": "Cardiac Surgery",
+            "image": "expert-scorsin.webp",
+            "bio": "Dr. Marcio Scorsin is a distinguished Cardiac Surgery Specialist renowned for his profound expertise and commitment to multidisciplinary collaboration. He plays a pivotal role in delivering high-value cross-border medical consultations, ensuring that premium clients benefit from integrated, state-of-the-art surgical perspectives. His approach emphasizes rigorous clinical evaluation and seamless coordination with international medical teams to optimize treatment pathways and enhance overall patient safety and outcomes."
+          },
+          {
+            "name": "Andrea Mangini",
+            "enName": "Andrea Mangini",
+            "title": "Cardiac Surgery Specialist",
+            "category": "Cardiac Surgery",
+            "image": "expert-mangini.webp",
+            "bio": "Dr. Andrea Mangini brings exceptional cardiovascular surgery expertise to our international advisory panel. Dedicated to premium patient consultation, he excels in collaborative environments, working closely with global medical teams to design sophisticated intervention strategies. His deep understanding of advanced surgical techniques and patient-centric care models allows him to provide invaluable second opinions and strategic health management advice for individuals navigating complex cardiac challenges."
+          },
+          {
+            "name": "Vasile Sirbu",
+            "enName": "Vasile Sirbu",
+            "title": "Cardiology Specialist",
+            "category": "Cardiology",
+            "image": "expert-sirbu.webp",
+            "bio": "Dr. Vasile Sirbu is an esteemed Cardiology Specialist focused on comprehensive cardiovascular assessment and premium health management support. He facilitates high-level cross-border expert consultations, offering clients detailed insights into their cardiac health and preventive care strategies. Dr. Sirbu's meticulous analytical skills and dedication to patient well-being make him an indispensable resource for individuals seeking authoritative guidance and optimized, long-term cardiovascular management plans."
+          },
+          {
+            "name": "Kristian Desa",
+            "enName": "Kristian Desa",
+            "title": "Anesthesiology Specialist",
+            "category": "Anesthesiology",
+            "image": "expert-desa.webp",
+            "bio": "Dr. Kristian Desa is a premier Anesthesiology Specialist providing critical perioperative safety assessments and advanced anesthesia support. His expertise is vital in evaluating patient readiness for complex cardiovascular interventions. With a strong background in international medical collaboration, Dr. Desa ensures that all consultation strategies prioritize patient safety, risk mitigation, and optimal recovery pathways, delivering peace of mind to premium clients undergoing significant medical evaluations."
+          }
+        ]
+      },
+      "successStoriesNew": {
+        "hero": {
+          "title": "Transforming Critical Cardiac Conditions with Global Expertise",
+          "subtitle": "Discover how our coordinated expert interventions and international medical collaboration restore quality of life for patients with complex cardiovascular diseases."
+        },
+        "disclaimer": "United Macao Bridge Holden Corporation Limited provides consultation coordination and expert resource matching. The company does NOT provide direct medical treatment services. Services include: expert resource coordination, medical consultation facilitation, health management recommendations.",
+        "categories": {
+          "cardiology": "Cardiology",
+          "surgery": "Cardiac Surgery"
+        },
+        "cta": {
+          "btn1": "Request Expert Review",
+          "btn2": "Start Consultation"
+        },
+        "cases": [
+          {
+            "id": 1,
+            "category": "cardiology",
+            "title": "Time-Critical Intervention: Restoring Cardiac Perfusion Within Golden Window",
+            "challenge": "Acute MI requiring immediate intervention.",
+            "solution": "Rapid diagnosis and PCI.",
+            "outcome": "Successful reperfusion within 65-minute window.",
+            "summary": "Emergency cardiac rescue with international protocol standards."
+          },
+          {
+            "id": 2,
+            "category": "cardiology",
+            "title": "Recanalization of Chronic Total Occlusion: Restoring Blood Flow to Critical Vessel",
+            "challenge": "Complete LAD occlusion.",
+            "solution": "Advanced retrograde recanalization with stent.",
+            "outcome": "Successful long-term patency.",
+            "summary": "Complex coronary intervention with specialized expertise."
+          },
+          {
+            "id": 3,
+            "category": "cardiology",
+            "title": "Multi-Stage Coronary Intervention: Transforming High-Risk Patient Trajectory",
+            "challenge": "Three-vessel disease.",
+            "solution": "Staged intervention strategy.",
+            "outcome": "Improved exercise tolerance and quality of life.",
+            "summary": "Comprehensive multi-vessel disease management."
+          },
+          {
+            "id": 4,
+            "category": "cardiology",
+            "title": "Systemic Vascular Disease Management: Bilateral Renal Artery Intervention",
+            "challenge": "Severe bilateral renal artery stenosis (99%).",
+            "solution": "Bilateral stent placement.",
+            "outcome": "Blood pressure control and preserved renal function.",
+            "summary": "Systemic vascular disease intervention with international standards."
+          },
+          {
+            "id": 5,
+            "category": "cardiology",
+            "title": "Long-Term Disease Management: Restoring Quality of Life in Complex Heart Failure",
+            "challenge": "Chronic CAD with progressive heart failure over 10 years.",
+            "solution": "Comprehensive cardiac intervention and medical optimization.",
+            "outcome": "Improved functional capacity.",
+            "summary": "Long-term chronic disease management with expert coordination."
+          },
+          {
+            "id": 6,
+            "category": "cardiology",
+            "title": "Safe Cardiac Device Implantation in Elderly Patient: Restoring Normal Heart Rhythm",
+            "challenge": "89-year-old with symptomatic arrhythmia.",
+            "solution": "Minimally invasive pacemaker implantation with perioperative safety protocols.",
+            "outcome": "Successful device placement and restored rhythm.",
+            "summary": "Safe intervention in high-risk elderly patients."
+          },
+          {
+            "id": 7,
+            "category": "surgery",
+            "title": "Valve Reconstruction: Restoring Cardiac Function Through Surgical Precision",
+            "challenge": "Severe valvular disease with heart failure.",
+            "solution": "Valve repair/replacement with advanced technique.",
+            "outcome": "Restored function and symptom resolution.",
+            "summary": "Complex valve surgery with international surgical expertise."
+          },
+          {
+            "id": 8,
+            "category": "surgery",
+            "title": "Minimally Invasive Aortic Valve Replacement: Advanced Surgical Innovation",
+            "challenge": "Aortic valve disease.",
+            "solution": "Minimally invasive approach with small incision.",
+            "outcome": "Successful replacement and rapid recovery.",
+            "summary": "Advanced surgical technique with premium patient outcomes."
+          },
+          {
+            "id": 9,
+            "category": "surgery",
+            "title": "Complex Congenital Heart Repair: Restoring Normal Cardiac Anatomy",
+            "challenge": "Complex congenital heart defect.",
+            "solution": "Specialized pediatric cardiac surgery with anatomical reconstruction.",
+            "outcome": "Successful repair and normal function.",
+            "summary": "Specialized pediatric cardiac surgery expertise."
+          },
+          {
+            "id": 10,
+            "category": "surgery",
+            "title": "Multi-Valve Surgery: Coordinated Intervention for Complex Pathology",
+            "challenge": "Multiple valve disease (mitral + tricuspid).",
+            "solution": "Combined valve repair/replacement with atrial appendage management.",
+            "outcome": "Successful intervention and restored hemodynamics.",
+            "summary": "Complex multi-valve surgery with expert coordination."
+          },
+          {
+            "id": 11,
+            "category": "surgery",
+            "title": "Left Ventricular Outflow Tract Obstruction Relief: Restoring Cardiac Flow",
+            "challenge": "HOCM with significant LVOT obstruction.",
+            "solution": "Surgical septal myectomy with LVOT relief.",
+            "outcome": "Eliminated obstruction and improved exercise capacity.",
+            "summary": "Specialized surgery for complex cardiomyopathy."
+          },
+          {
+            "id": 12,
+            "category": "surgery",
+            "title": "Multidisciplinary Cardiac Care: Integrated Approach to Complex Disease",
+            "challenge": "Multi-vessel disease requiring coordinated surgical and medical management.",
+            "solution": "MDT approach with integrated treatment strategy.",
+            "outcome": "Successful intervention and optimized outcomes.",
+            "summary": "Coordinated multidisciplinary cardiac care."
+          }
+        ]
+      },
+      "about": {
+        "title": "About United Macao Bridge Holden Corporation Limited",
+        "mission": "Our Mission",
+        "missionText": "United Macao Bridge Holden Corporation Limited is dedicated to connecting global medical excellence with premium cross-border healthcare solutions. We specialize in medical device trade, healthcare consulting, and international medical expertise, providing precise and trusted medical services to clients worldwide.",
+        "competencies": "Core Competencies",
+        "competency1": "Medical device sourcing and international supply chain management",
+        "competency2": "Cross-border healthcare consulting and resource integration",
+        "competency3": "International specialty expertise and expert network",
+        "competency4": "Complex case management and treatment coordination",
+        "presence": "International Presence",
+        "presenceText": "Headquartered in Macao, we have established an extensive global network, partnering with leading medical institutions and experts to provide world-class medical solutions to our clients.",
+        "values": "Our Values",
+        "value1": "Trust: Building long-term, reliable partnerships",
+        "value2": "Precision: Delivering accurate, professional medical solutions",
+        "value3": "International Standards: Adhering to the highest global medical standards",
+        "value4": "Patient-Centric Care: Always putting patient needs first"
+      },
+      "servicesPage": {
+        "title": "Our Services",
+        "medicalTrade": {
+          "title": "Medical Trade Services",
+          "description": "Global medical device sourcing and supply chain management",
+          "benefit1": "International medical device procurement",
+          "benefit2": "Quality assurance and certification support",
+          "benefit3": "Supply chain optimization and logistics management",
+          "benefit4": "Compliance and regulatory support",
+          "cta": "Learn More"
+        },
+        "consulting": {
+          "title": "Healthcare Consulting",
+          "description": "Cross-border medical coordination and expert network connection",
+          "benefit1": "Cross-border medical coordination",
+          "benefit2": "Expert network connection",
+          "benefit3": "Healthcare resource integration",
+          "benefit4": "Strategic planning and implementation",
+          "cta": "Book Consultation"
+        },
+        "premium": {
+          "title": "Premium Medical Services",
+          "description": "International expert consultation and complex case management",
+          "benefit1": "International expert consultation",
+          "benefit2": "Complex case management",
+          "benefit3": "Personalized treatment plans",
+          "benefit4": "Ongoing follow-up and support",
+          "cta": "Start Your Journey"
+        }
+      },
+      "contact": {
+        "title": "Contact Us",
+        "subtitle": "Connect with our team to start your healthcare journey",
+        "contactForm": "Contact Form",
+        "consultationForm": "Consultation Booking Form",
+        "name": "Name",
+        "company": "Company/Institution",
+        "country": "Country/Region",
+        "phone": "Phone/WhatsApp",
+        "email": "Email",
+        "message": "Message",
+        "serviceType": "Service Type",
+        "preferredTime": "Preferred Consultation Time",
+        "additionalNotes": "Additional Notes",
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "successMessage": "Form submitted successfully",
+        "errorMessage": "Submission failed. Please try again",
+        "companyInfo": "Company Information",
+        "address": "Room 905, 9th Floor, First International Commercial Centre, 600-E Dr. Rodrigo Rodríguez Avenue, Macau",
+        "businessHours": "Business Hours",
+        "businessHoursText": "Monday - Friday: 9:00 - 18:00",
+        "serviceTypes": {
+          "medicalTrade": "Medical Trade",
+          "consulting": "Healthcare Consulting",
+          "premium": "Premium Medical Services",
+          "other": "Other"
+        }
+      },
+      "footer": {
+        "description": "Connecting Global Medical Excellence and Cross-Border Supply Chain Solutions",
+        "quickLinks": "Quick Links",
+        "contactInfo": "Contact Information",
+        "businessHours": "Business Hours",
+        "businessHoursText": "Monday - Friday: 9:00 - 18:00",
+        "followUs": "Follow Us",
+        "copyright": "© 2026 United Macao Bridge Holden Corporation Limited. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      }
+    },
+    "pt": {
+      "nav": {
+        "home": "Início",
+        "about": "Sobre Nós",
+        "services": "Serviços",
+        "advisoryBoard": "Conselho Consultivo",
+        "successStories": "Casos de Sucesso",
+        "contact": "Contacto"
+      },
+      "hero": {
+        "headline": "Saúde Global. Soluções Precisas. Experiência Confiável.",
+        "subheading": "Conectando a Excelência Médica Global com Soluções Premium de Saúde Transfronteiriça.",
+        "tagline": "Excelência Médica Global. Soluções Precisas. Expertise Confiável ao Seu Lado.",
+        "ctaPrimary": "Contactar um Especialista",
+        "ctaSecondary": "Obter um Plano Personalizado"
+      },
+      "company": {
+        "description": "United Macao Bridge Holden Corporation Limited - Seu Parceiro Confiável Conectando Excelência Médica Global e Soluções de Saúde Transfronteiriça Premium"
+      },
+      "stats": {
+        "experts": "Especialistas Médicos Internacionais",
+        "network": "Rede Médica Transfronteiriça",
+        "cardiology": "Serviços de Especialidade Avançados",
+        "supply": "Capacidade de Cadeia de Abastecimento Global"
+      },
+      "services": {
+        "title": "Serviços Principais",
+        "medicalTrade": {
+          "title": "Serviços de Comércio Médico",
+          "description": "Aquisição global de dispositivos médicos, gestão internacional da cadeia de abastecimento, garantia de qualidade e suporte de certificação.",
+          "cta": "Saber Mais"
+        },
+        "consulting": {
+          "title": "Consultoria de Saúde",
+          "description": "Coordenação médica transfronteiriça, conexão de rede de especialistas, integração de recursos de saúde e planeamento estratégico.",
+          "cta": "Marcar Consulta"
+        },
+        "premium": {
+          "title": "Serviços Médicos Premium",
+          "description": "Consulta de especialistas internacionais, gestão de casos complexos, planos de tratamento personalizados.",
+          "cta": "Iniciar a Sua Jornada"
+        }
+      },
+      "advisoryBoardNew": {
+        "hero": {
+          "title": "Conselho Médico Consultivo Internacional",
+          "subtitle": "Conectando a Expertise Cardíaca Global com Cuidados de Saúde Transfronteiriços Premium",
+          "cta1": "Contactar um Especialista",
+          "cta2": "Agendar Consulta"
+        },
+        "about": {
+          "description": "A United Macao Bridge Holden Corporation Limited integra recursos médicos internacionais premium, aproveitando a equipa de especialistas internacionais do Jilin Heart Hospital para fornecer consultas especializadas cardiovasculares profissionais e confiáveis, avaliação médica transfronteiriça, coordenação de consultas especializadas e suporte de gestão de saúde para clientes premium.",
+          "disclaimer": "A United Macao Bridge Holden Corporation Limited fornece coordenação de consultas e correspondência de recursos especializados. A empresa NÃO fornece serviços de tratamento médico direto. Os serviços incluem: coordenação de recursos especializados, facilitação de consultas médicas, recomendações de gestão de saúde."
+        },
+        "categories": [
+          {
+            "name": "Cirurgia Cardíaca",
+            "desc": "Avaliação cirúrgica avançada e estratégias de intervenção para doenças cardiovasculares complexas."
+          },
+          {
+            "name": "Cardiologia",
+            "desc": "Diagnóstico cardiovascular abrangente, gestão de doenças crónicas e cuidados preventivos."
+          },
+          {
+            "name": "Anestesiologia",
+            "desc": "Avaliação de segurança perioperatória, mitigação de riscos e suporte avançado de anestesia."
+          }
+        ],
+        "process": {
+          "title": "Processo de Consulta",
+          "steps": [
+            {
+              "title": "Enviar Consulta",
+              "desc": "Forneça as suas informações médicas iniciais e necessidades específicas."
+            },
+            {
+              "title": "Avaliação de Necessidades",
+              "desc": "A nossa equipa analisa o seu caso para identificar os especialistas mais adequados."
+            },
+            {
+              "title": "Correspondência de Especialistas",
+              "desc": "Conecte-se com os principais especialistas cardiovasculares internacionais."
+            },
+            {
+              "title": "Coordenação de Consulta Privada",
+              "desc": "Facilitando a revisão médica abrangente e o planeamento estratégico."
+            }
+          ]
+        },
+        "experts": [
+          {
+            "name": "Massimo Giovanni Lemma",
+            "enName": "Massimo Giovanni Lemma",
+            "title": "Diretor de Cirurgia Cardíaca",
+            "category": "Cirurgia Cardíaca",
+            "image": "expert-lemma.webp",
+            "bio": "O Dr. Massimo Giovanni Lemma oferece uma liderança inigualável em cirurgia cardíaca, trazendo décadas de experiência clínica internacional para o nosso conselho consultivo. Ele é especialista em avaliações pré-operatórias abrangentes e suporte de consulta especializada para pacientes premium que enfrentam condições cardiovasculares complexas. A sua orientação autorizada garante que cada paciente receba uma estratégia cirúrgica de classe mundial meticulosamente avaliada, adaptada às suas necessidades anatómicas e clínicas únicas, preenchendo a lacuna entre a excelência médica global e os cuidados personalizados."
+          },
+          {
+            "name": "Francesco Lavarra",
+            "enName": "Francesco Lavarra",
+            "title": "Diretor de Cardiologia",
+            "category": "Cardiologia",
+            "image": "expert-lavarra.webp",
+            "bio": "Como Diretor de Cardiologia, o Dr. Francesco Lavarra oferece um profundo julgamento profissional e vasta experiência no domínio da medicina cardiovascular. Ele é uma autoridade líder na gestão de doenças crónicas e diagnósticos cardíacos complexos. O Dr. Lavarra fornece suporte crítico de consulta especializada, orientando clientes premium através de avaliações de saúde complexas e garantindo que as suas estratégias de cuidados cardíacos a longo prazo se alinhem com os mais altos padrões internacionais de excelência médica."
+          },
+          {
+            "name": "Marcio Scorsin",
+            "enName": "Marcio Scorsin",
+            "title": "Especialista em Cirurgia Cardíaca",
+            "category": "Cirurgia Cardíaca",
+            "image": "expert-scorsin.webp",
+            "bio": "O Dr. Marcio Scorsin é um distinto Especialista em Cirurgia Cardíaca, reconhecido pela sua profunda experiência e compromisso com a colaboração multidisciplinar. Ele desempenha um papel fundamental na prestação de consultas médicas transfronteiriças de alto valor, garantindo que os clientes premium beneficiem de perspetivas cirúrgicas integradas e de ponta. A sua abordagem enfatiza a avaliação clínica rigorosa e a coordenação perfeita com equipas médicas internacionais para otimizar as vias de tratamento e melhorar a segurança e os resultados gerais do paciente."
+          },
+          {
+            "name": "Andrea Mangini",
+            "enName": "Andrea Mangini",
+            "title": "Especialista em Cirurgia Cardíaca",
+            "category": "Cirurgia Cardíaca",
+            "image": "expert-mangini.webp",
+            "bio": "O Dr. Andrea Mangini traz uma experiência excecional em cirurgia cardiovascular para o nosso painel consultivo internacional. Dedicado à consulta de pacientes premium, ele destaca-se em ambientes colaborativos, trabalhando em estreita colaboração com equipas médicas globais para conceber estratégias de intervenção sofisticadas. A sua profunda compreensão de técnicas cirúrgicas avançadas e modelos de cuidados centrados no paciente permite-lhe fornecer segundas opiniões inestimáveis e conselhos estratégicos de gestão de saúde para indivíduos que enfrentam desafios cardíacos complexos."
+          },
+          {
+            "name": "Vasile Sirbu",
+            "enName": "Vasile Sirbu",
+            "title": "Especialista em Cardiologia",
+            "category": "Cardiologia",
+            "image": "expert-sirbu.webp",
+            "bio": "O Dr. Vasile Sirbu é um estimado Especialista em Cardiologia focado na avaliação cardiovascular abrangente e no suporte de gestão de saúde premium. Ele facilita consultas especializadas transfronteiriças de alto nível, oferecendo aos clientes informações detalhadas sobre a sua saúde cardíaca e estratégias de cuidados preventivos. As meticulosas capacidades analíticas do Dr. Sirbu e a sua dedicação ao bem-estar do paciente fazem dele um recurso indispensável para indivíduos que procuram orientação autorizada e planos de gestão cardiovascular otimizados a longo prazo."
+          },
+          {
+            "name": "Kristian Desa",
+            "enName": "Kristian Desa",
+            "title": "Especialista em Anestesiologia",
+            "category": "Anestesiologia",
+            "image": "expert-desa.webp",
+            "bio": "O Dr. Kristian Desa é um Especialista em Anestesiologia de topo, fornecendo avaliações críticas de segurança perioperatória e suporte avançado de anestesia. A sua experiência é vital na avaliação da prontidão do paciente para intervenções cardiovasculares complexas. Com uma forte formação em colaboração médica internacional, o Dr. Desa garante que todas as estratégias de consulta priorizem a segurança do paciente, a mitigação de riscos e as vias de recuperação ideais, proporcionando tranquilidade aos clientes premium submetidos a avaliações médicas significativas."
+          }
+        ]
+      },
+      "successStoriesNew": {
+        "hero": {
+          "title": "Transformando Condições Cardíacas Críticas com Expertise Global",
+          "subtitle": "Descubra como as nossas intervenções especializadas coordenadas e a colaboração médica internacional restauram a qualidade de vida de pacientes com doenças cardiovasculares complexas."
+        },
+        "disclaimer": "A United Macao Bridge Holden Corporation Limited fornece coordenação de consultas e correspondência de recursos especializados. A empresa NÃO fornece serviços de tratamento médico direto. Os serviços incluem: coordenação de recursos especializados, facilitação de consultas médicas, recomendações de gestão de saúde.",
+        "categories": {
+          "cardiology": "Cardiologia",
+          "surgery": "Cirurgia Cardíaca"
+        },
+        "cta": {
+          "btn1": "Solicitar Avaliação",
+          "btn2": "Iniciar Consulta"
+        },
+        "cases": [
+          {
+            "id": 1,
+            "category": "cardiology",
+            "title": "Intervenção Crítica no Tempo: Restaurando a Perfusão Cardíaca na Janela de Ouro",
+            "challenge": "EAM agudo requerendo intervenção imediata.",
+            "solution": "Diagnóstico rápido e ICP.",
+            "outcome": "Reperfusão bem-sucedida dentro da janela de 65 minutos.",
+            "summary": "Resgate cardíaco de emergência com padrões de protocolo internacionais."
+          },
+          {
+            "id": 2,
+            "category": "cardiology",
+            "title": "Recanalização de Oclusão Total Crónica: Restaurando o Fluxo Sanguíneo para Vaso Crítico",
+            "challenge": "Oclusão completa da ADA.",
+            "solution": "Recanalização retrógrada avançada com stent.",
+            "outcome": "Permeabilidade a longo prazo bem-sucedida.",
+            "summary": "Intervenção coronária complexa com experiência especializada."
+          },
+          {
+            "id": 3,
+            "category": "cardiology",
+            "title": "Intervenção Coronária em Múltiplas Fases: Transformando a Trajetória de Paciente de Alto Risco",
+            "challenge": "Doença de três vasos.",
+            "solution": "Estratégia de intervenção faseada.",
+            "outcome": "Melhoria da tolerância ao exercício e da qualidade de vida.",
+            "summary": "Gestão abrangente de doença de múltiplos vasos."
+          },
+          {
+            "id": 4,
+            "category": "cardiology",
+            "title": "Gestão de Doença Vascular Sistémica: Intervenção na Artéria Renal Bilateral",
+            "challenge": "Estenose grave da artéria renal bilateral (99%).",
+            "solution": "Colocação de stent bilateral.",
+            "outcome": "Controlo da pressão arterial e função renal preservada.",
+            "summary": "Intervenção em doença vascular sistémica com padrões internacionais."
+          },
+          {
+            "id": 5,
+            "category": "cardiology",
+            "title": "Gestão de Doença a Longo Prazo: Restaurando a Qualidade de Vida na Insuficiência Cardíaca Complexa",
+            "challenge": "DAC crónica com insuficiência cardíaca progressiva ao longo de 10 anos.",
+            "solution": "Intervenção cardíaca abrangente e otimização médica.",
+            "outcome": "Melhoria da capacidade funcional.",
+            "summary": "Gestão de doença crónica a longo prazo com coordenação especializada."
+          },
+          {
+            "id": 6,
+            "category": "cardiology",
+            "title": "Implantação Segura de Dispositivo Cardíaco em Paciente Idoso: Restaurando o Ritmo Cardíaco Normal",
+            "challenge": "Paciente de 89 anos com arritmia sintomática.",
+            "solution": "Implantação de pacemaker minimamente invasiva com protocolos de segurança perioperatória.",
+            "outcome": "Colocação bem-sucedida do dispositivo e ritmo restaurado.",
+            "summary": "Intervenção segura em pacientes idosos de alto risco."
+          },
+          {
+            "id": 7,
+            "category": "surgery",
+            "title": "Reconstrução Valvular: Restaurando a Função Cardíaca Através da Precisão Cirúrgica",
+            "challenge": "Doença valvular grave com insuficiência cardíaca.",
+            "solution": "Reparação/substituição valvular com técnica avançada.",
+            "outcome": "Função restaurada e resolução dos sintomas.",
+            "summary": "Cirurgia valvular complexa com experiência cirúrgica internacional."
+          },
+          {
+            "id": 8,
+            "category": "surgery",
+            "title": "Substituição da Válvula Aórtica Minimamente Invasiva: Inovação Cirúrgica Avançada",
+            "challenge": "Doença da válvula aórtica.",
+            "solution": "Abordagem minimamente invasiva com pequena incisão.",
+            "outcome": "Substituição bem-sucedida e recuperação rápida.",
+            "summary": "Técnica cirúrgica avançada com resultados premium para o paciente."
+          },
+          {
+            "id": 9,
+            "category": "surgery",
+            "title": "Reparação de Cardiopatia Congénita Complexa: Restaurando a Anatomia Cardíaca Normal",
+            "challenge": "Defeito cardíaco congénito complexo.",
+            "solution": "Cirurgia cardíaca pediátrica especializada com reconstrução anatómica.",
+            "outcome": "Reparação bem-sucedida e função normal.",
+            "summary": "Experiência especializada em cirurgia cardíaca pediátrica."
+          },
+          {
+            "id": 10,
+            "category": "surgery",
+            "title": "Cirurgia Multivalvular: Intervenção Coordenada para Patologia Complexa",
+            "challenge": "Doença de múltiplas válvulas (mitral + tricúspide).",
+            "solution": "Reparação/substituição valvular combinada com gestão do apêndice atrial.",
+            "outcome": "Intervenção bem-sucedida e hemodinâmica restaurada.",
+            "summary": "Cirurgia multivalvular complexa com coordenação especializada."
+          },
+          {
+            "id": 11,
+            "category": "surgery",
+            "title": "Alívio da Obstrução do Trato de Saída do Ventrículo Esquerdo: Restaurando o Fluxo Cardíaco",
+            "challenge": "CMHO com obstrução significativa do TSVE.",
+            "solution": "Miectomia septal cirúrgica com alívio do TSVE.",
+            "outcome": "Obstrução eliminada e capacidade de exercício melhorada.",
+            "summary": "Cirurgia especializada para cardiomiopatia complexa."
+          },
+          {
+            "id": 12,
+            "category": "surgery",
+            "title": "Cuidados Cardíacos Multidisciplinares: Abordagem Integrada para Doença Complexa",
+            "challenge": "Doença de múltiplos vasos requerendo gestão cirúrgica e médica coordenada.",
+            "solution": "Abordagem de equipa multidisciplinar (MDT) com estratégia de tratamento integrada.",
+            "outcome": "Intervenção bem-sucedida e resultados otimizados.",
+            "summary": "Cuidados cardíacos multidisciplinares coordenados."
+          }
+        ]
+      },
+      "about": {
+        "title": "Sobre a United Macao Bridge Holden Corporation Limited",
+        "mission": "A Nossa Missão",
+        "missionText": "A United Macao Bridge Holden Corporation Limited dedica-se a conectar a excelência médica global com soluções premium de saúde transfronteiriça. Especializamo-nos em comércio de dispositivos médicos, consultoria de saúde e experiência médica internacional, fornecendo serviços médicos precisos e confiáveis a clientes em todo o mundo.",
+        "competencies": "Competências Principais",
+        "competency1": "Aquisição de dispositivos médicos e gestão internacional da cadeia de abastecimento",
+        "competency2": "Consultoria de saúde transfronteiriça e integração de recursos",
+        "competency3": "Experiência de especialidade internacional e rede de especialistas",
+        "competency4": "Gestão de casos complexos e coordenação de tratamento",
+        "presence": "Presença Internacional",
+        "presenceText": "Com sede em Macau, estabelecemos uma extensa rede global, em parceria com instituições médicas e especialistas líderes para fornecer soluções médicas de classe mundial aos nossos clientes.",
+        "values": "Os Nossos Valores",
+        "value1": "Confiança: Construir parcerias de longo prazo e confiáveis",
+        "value2": "Precisão: Fornecer soluções médicas precisas e profissionais",
+        "value3": "Padrões Internacionais: Aderir aos mais altos padrões médicos globais",
+        "value4": "Cuidados Centrados no Paciente: Sempre colocar as necessidades do paciente em primeiro lugar"
+      },
+      "servicesPage": {
+        "title": "Os Nossos Serviços",
+        "medicalTrade": {
+          "title": "Serviços de Comércio Médico",
+          "description": "Aquisição global de dispositivos médicos e gestão da cadeia de abastecimento",
+          "benefit1": "Aquisição internacional de dispositivos médicos",
+          "benefit2": "Garantia de qualidade e suporte de certificação",
+          "benefit3": "Otimização da cadeia de abastecimento e gestão logística",
+          "benefit4": "Conformidade e suporte regulatório",
+          "cta": "Saber Mais"
+        },
+        "consulting": {
+          "title": "Consultoria de Saúde",
+          "description": "Coordenação médica transfronteiriça e conexão de rede de especialistas",
+          "benefit1": "Coordenação médica transfronteiriça",
+          "benefit2": "Conexão de rede de especialistas",
+          "benefit3": "Integração de recursos de saúde",
+          "benefit4": "Planeamento estratégico e implementação",
+          "cta": "Marcar Consulta"
+        },
+        "premium": {
+          "title": "Serviços Médicos Premium",
+          "description": "Consulta de especialistas internacionais e gestão de casos complexos",
+          "benefit1": "Consulta de especialistas internacionais",
+          "benefit2": "Gestão de casos complexos",
+          "benefit3": "Planos de tratamento personalizados",
+          "benefit4": "Acompanhamento contínuo e suporte",
+          "cta": "Iniciar a Sua Jornada"
+        }
+      },
+      "contact": {
+        "title": "Contacte-nos",
+        "subtitle": "Conecte-se com a nossa equipa para iniciar a sua jornada de saúde",
+        "contactForm": "Formulário de Contacto",
+        "consultationForm": "Formulário de Marcação de Consulta",
+        "name": "Nome",
+        "company": "Empresa/Instituição",
+        "country": "País/Região",
+        "phone": "Telefone/WhatsApp",
+        "email": "Email",
+        "message": "Mensagem",
+        "serviceType": "Tipo de Serviço",
+        "preferredTime": "Horário Preferido para Consulta",
+        "additionalNotes": "Notas Adicionais",
+        "submit": "Enviar",
+        "submitting": "A enviar...",
+        "successMessage": "Formulário enviado com sucesso",
+        "errorMessage": "Falha no envio. Por favor, tente novamente",
+        "companyInfo": "Informações da Empresa",
+        "address": "Sala 905, 9º Andar, Centro Comercial Internacional Primeiro, Avenida Dr. Rodrigo Rodríguez 600-E, Macau",
+        "businessHours": "Horário de Funcionamento",
+        "businessHoursText": "Segunda - Sexta: 9:00 - 18:00",
+        "serviceTypes": {
+          "medicalTrade": "Comércio Médico",
+          "consulting": "Consultoria de Saúde",
+          "premium": "Serviços Médicos Premium",
+          "other": "Outro"
+        }
+      },
+      "footer": {
+        "description": "Conectando Excelência Médica Global e Soluções de Cadeia de Suprimentos Transfronteiriça",
+        "quickLinks": "Links Rápidos",
+        "contactInfo": "Informações de Contacto",
+        "businessHours": "Horário de Funcionamento",
+        "businessHoursText": "Segunda - Sexta: 9:00 - 18:00",
+        "followUs": "Siga-nos",
+        "copyright": "© 2026 United Macao Bridge Holden Corporation Limited. Todos os direitos reservados.",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Serviço"
+      }
+    }
+  }
+}
