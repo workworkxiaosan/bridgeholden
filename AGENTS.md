@@ -31,5 +31,5 @@
 - 頁面滾動顯現動畫靠 IntersectionObserver；JS 失效時內容直接可見。
 - 表單為前端演示（與原站一致），未接後端；如需真正收集留言可接 Formspree 等服務。
 - 每頁帶 canonical / Open Graph / Twitter Card 與 hreflang；`content.json` 的 `site_url` 是絕對 URL 基準，換域名時改它（CNAME 也隨之更新）。
-- 域名 `bridgeholdengroup.com` 目前指向原 Hostinger 站；切換到 GitHub Pages 需：建倉庫推送 → 倉庫 Settings → Pages 選 GitHub Actions → DNS A 記錄指向 GitHub Pages（185.199.108.153/109.153/110.153/111.153）。
-- GitHub 倉庫尚未建立；本機 gh CLI 已登錄 workworkxiaosan 賬號，可用 `gh repo create` 建立後推送。
+- 域名 `bridgeholdengroup.com`（2026-10 已切換到 GitHub Pages）：DNS 在 Hostinger（NS: dns-parking.com），A 記錄 → 185.199.108.153/109.153/110.153/111.153，`www` CNAME → `workworkxiaosan.github.io`；MX/TXT（Hostinger 郵箱 mx1/mx2.hostinger.com.hk + SPF）保留不動。Hostinger DNS 可用 API 管理（`PUT/DELETE https://developers.hostinger.com/api/dns/v1/zones/{domain}`，PUT 用 `{"zone":[...]}`，DELETE 用 `{"filters":[{name,type}]}`；@ 上 ALIAS 與 A 互斥，須先 DELETE ALIAS）。
+- GitHub 倉庫：`workworkxiaosan/bridgeholden`（公開，GitHub Pages workflow 模式，本機 gh CLI 已登錄 workworkxiaosan）。
