@@ -315,7 +315,7 @@ def render_about(lang):
         <h2 class="section-title" style="margin-bottom:1.5rem;">{esc(ab['mission'])}</h2>
         <p style="font-size:1.125rem;color:var(--gray-600);line-height:1.625;">{esc(ab['missionText'])}</p>
       </div>
-      <div class="reveal"><img src="{asset('img/' + C['images']['about_mission'], lang)}" alt="Medical team collaboration"></div>
+      <div class="reveal"><img src="{asset('img/' + C['images']['about_mission'], lang)}" alt="Medical team collaboration" loading="lazy" decoding="async"></div>
     </div>
   </div>
 </section>
@@ -329,7 +329,7 @@ def render_about(lang):
 <section class="section about-sec-white">
   <div class="container">
     <div class="split">
-      <div class="reveal"><img src="{asset('img/' + C['images']['about_presence'], lang)}" alt="Global presence"></div>
+      <div class="reveal"><img src="{asset('img/' + C['images']['about_presence'], lang)}" alt="Global presence" loading="lazy" decoding="async"></div>
       <div class="reveal">
         <h2 class="section-title" style="margin-bottom:1.5rem;">{esc(ab['presence'])}</h2>
         <p style="font-size:1.125rem;color:var(--gray-600);line-height:1.625;">{esc(ab['presenceText'])}</p>
@@ -362,7 +362,7 @@ def render_services(lang):
           </div>
           <a class="btn btn-blue" href="{page_href('contact', lang, lang)}">{esc(s['cta'])}</a>
         </div>'''
-        img_col = f'''<div class="reveal"><img src="{asset('img/' + SERVICE_IMAGES[k], lang)}" alt="{esc(s['title'])}"></div>'''
+        img_col = f'''<div class="reveal"><img src="{asset('img/' + SERVICE_IMAGES[k], lang)}" alt="{esc(s['title'])}" loading="lazy" decoding="async"></div>'''
         cols = (text_col + img_col) if i % 2 == 0 else (img_col + text_col)
         rows += f'''
       <div class="svc-row split">{cols}
@@ -389,7 +389,7 @@ def render_advisory(lang):
         </div>''' for c in ab['categories'])
     experts = ''.join(f'''
         <div class="expert-card reveal">
-          <div class="photo"><img src="{asset('img/' + e['image'], lang)}" alt="{esc(e['name'])}"></div>
+          <div class="photo"><img src="{asset('img/' + e['image'], lang)}" alt="{esc(e['name'])}" loading="lazy" decoding="async"></div>
           <div class="body">
             <p class="cat">{esc(e['category'])}</p>
             <h3>{esc(e['name'])}</h3>

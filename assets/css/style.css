@@ -484,7 +484,7 @@ a { text-decoration: none; color: inherit; }
   display: grid; grid-template-columns: 1fr; gap: 3rem; padding: 4rem 0 0;
 }
 @media (min-width: 768px) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1024px) { .footer-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1024px) { .footer-grid { grid-template-columns: 1.7fr 1fr 1fr 1fr; } }
 .footer-grid .logo { height: 3rem; width: auto; margin-bottom: 1.5rem; }
 .footer-grid .desc { font-size: .875rem; color: var(--gray-300); line-height: 1.625; }
 .footer-grid h4 { font-size: 1.125rem; font-weight: 600; margin-bottom: 1rem; }
@@ -526,3 +526,18 @@ a { text-decoration: none; color: inherit; }
 .nf-hero { padding: 8rem 0; text-align: center; }
 .nf-hero h1 { font-size: 4rem; font-weight: 700; color: var(--deep-navy); margin-bottom: 1rem; }
 .nf-hero p { color: var(--gray-600); font-size: 1.125rem; margin-bottom: 2rem; }
+
+/* ---------- 設計細節優化 ---------- */
+::selection { background: rgba(212,175,55,.35); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--gold); outline-offset: 2px; border-radius: .25rem;
+}
+html[lang^="zh"] .hero-home h1,
+html[lang^="zh"] .h-blue-hero h1,
+html[lang^="zh"] .hero-luxury h1,
+html[lang^="zh"] .section-title { letter-spacing: 0; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
