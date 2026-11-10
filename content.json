@@ -82,7 +82,7 @@
         "ctaSecondary": "獲取個性化方案"
       },
       "company": {
-        "description": "澳門橋霍頓有限公司——您身邊鏈接全球醫療卓越與優質跨境醫療解決方案的合作夥伴"
+        "description": "澳門橋霍頓有限公司——您身邊連接全球醫療卓越與優質跨境醫療解決方案的合作夥伴"
       },
       "stats": {
         "experts": "國際醫療專家",
@@ -138,7 +138,7 @@
           "steps": [
             {
               "title": "提交諮詢",
-              "desc": "提供您的初步醫療信息和具體需求。"
+              "desc": "提供您的初步醫療資訊和具體需求。"
             },
             {
               "title": "需求評估",
@@ -392,13 +392,13 @@
         "preferredTime": "首選諮詢時間",
         "additionalNotes": "附加說明",
         "submit": "提交",
-        "submitting": "提交中...",
+        "submitting": "提交中…",
         "successMessage": "表單已成功提交",
         "errorMessage": "提交失敗，請重試",
         "companyInfo": "公司資訊",
         "address": "澳門羅理基博士大馬路600-E號第一國際商業中心9樓905室",
         "businessHours": "營業時間",
-        "businessHoursText": "週一至週五：9:00 - 18:00",
+        "businessHoursText": "週一至週五：9:00–18:00",
         "serviceTypes": {
           "medicalTrade": "醫療貿易",
           "consulting": "醫療諮詢",
@@ -407,11 +407,11 @@
         }
       },
       "footer": {
-        "description": "鏈接全球卓越醫療服務和跨境供應鏈解決方案",
+        "description": "連接全球卓越醫療服務和跨境供應鏈解決方案",
         "quickLinks": "快速連結",
         "contactInfo": "聯絡資訊",
         "businessHours": "營業時間",
-        "businessHoursText": "週一至週五：9:00 - 18:00",
+        "businessHoursText": "週一至週五：9:00–18:00",
         "followUs": "關注我們",
         "copyright": "© 2026 澳門橋霍頓有限公司。保留所有權利。",
         "privacy": "隱私政策",
@@ -425,17 +425,17 @@
         "services": "服务项目",
         "advisoryBoard": "国际顾问委员会",
         "successStories": "成功案例",
-        "contact": "联络我们"
+        "contact": "联系我们"
       },
       "hero": {
         "headline": "全球医疗。精准解决方案。值得信赖的专业。",
         "subheading": "连接全球医疗卓越与优质跨境医疗解决方案",
         "tagline": "全球医疗精准解决方案——您身边值得信赖的专业",
-        "ctaPrimary": "联络专家",
+        "ctaPrimary": "联系专家",
         "ctaSecondary": "获取个性化方案"
       },
       "company": {
-        "description": "澳门桥霍顿有限公司——您身边链接全球医疗卓越与优质跨境医疗解决方案的合作伙伴"
+        "description": "澳门桥霍顿有限公司——您身边连接全球医疗卓越与优质跨境医疗解决方案的合作伙伴"
       },
       "stats": {
         "experts": "国际医疗专家",
@@ -731,27 +731,27 @@
         }
       },
       "contact": {
-        "title": "联络我们",
+        "title": "联系我们",
         "subtitle": "与我们的团队联系，开始您的医疗之旅",
-        "contactForm": "联络表单",
+        "contactForm": "联系表单",
         "consultationForm": "咨询预约表单",
         "name": "姓名",
         "company": "公司/机构",
         "country": "国家/地区",
         "phone": "电话/WhatsApp",
         "email": "电子邮件",
-        "message": "讯息",
+        "message": "信息",
         "serviceType": "服务类型",
         "preferredTime": "首选咨询时间",
         "additionalNotes": "附加说明",
         "submit": "提交",
-        "submitting": "提交中...",
+        "submitting": "提交中…",
         "successMessage": "表单已成功提交",
         "errorMessage": "提交失败，请重试",
-        "companyInfo": "公司资讯",
+        "companyInfo": "公司信息",
         "address": "澳门罗理基博士大马路600-E号第一国际商业中心9楼905室",
         "businessHours": "营业时间",
-        "businessHoursText": "周一至周五：9:00 - 18:00",
+        "businessHoursText": "周一至周五：9:00–18:00",
         "serviceTypes": {
           "medicalTrade": "医疗贸易",
           "consulting": "医疗咨询",
@@ -760,11 +760,11 @@
         }
       },
       "footer": {
-        "description": "链接全球卓越医疗服务和跨境供应链解决方案",
-        "quickLinks": "快速连结",
-        "contactInfo": "联络资讯",
+        "description": "连接全球卓越医疗服务和跨境供应链解决方案",
+        "quickLinks": "快速链接",
+        "contactInfo": "联系信息",
         "businessHours": "营业时间",
-        "businessHoursText": "周一至周五：9:00 - 18:00",
+        "businessHoursText": "周一至周五：9:00–18:00",
         "followUs": "关注我们",
         "copyright": "© 2026 澳门桥霍顿有限公司。保留所有权利。",
         "privacy": "隐私政策",
@@ -856,7 +856,7 @@
             },
             {
               "title": "Private Consultation Coordination",
-              "desc": "Facilitating comprehensive medical review and strategic planning."
+              "desc": "Facilitate comprehensive medical review and strategic planning."
             }
           ]
         },
@@ -929,25 +929,25 @@
           {
             "id": 1,
             "category": "cardiology",
-            "title": "Time-Critical Intervention: Restoring Cardiac Perfusion Within Golden Window",
+            "title": "Time-Critical Intervention: Restoring Cardiac Perfusion Within the Golden Window",
             "challenge": "Acute MI requiring immediate intervention.",
             "solution": "Rapid diagnosis and PCI.",
-            "outcome": "Successful reperfusion within 65-minute window.",
+            "outcome": "Successful reperfusion within the 65-minute window.",
             "summary": "Emergency cardiac rescue with international protocol standards."
           },
           {
             "id": 2,
             "category": "cardiology",
-            "title": "Recanalization of Chronic Total Occlusion: Restoring Blood Flow to Critical Vessel",
+            "title": "Recanalization of Chronic Total Occlusion: Restoring Blood Flow to a Critical Vessel",
             "challenge": "Complete LAD occlusion.",
-            "solution": "Advanced retrograde recanalization with stent.",
+            "solution": "Advanced retrograde recanalization with stenting.",
             "outcome": "Successful long-term patency.",
             "summary": "Complex coronary intervention with specialized expertise."
           },
           {
             "id": 3,
             "category": "cardiology",
-            "title": "Multi-Stage Coronary Intervention: Transforming High-Risk Patient Trajectory",
+            "title": "Multi-Stage Coronary Intervention: Transforming a High-Risk Patient's Trajectory",
             "challenge": "Three-vessel disease.",
             "solution": "Staged intervention strategy.",
             "outcome": "Improved exercise tolerance and quality of life.",
@@ -967,14 +967,14 @@
             "category": "cardiology",
             "title": "Long-Term Disease Management: Restoring Quality of Life in Complex Heart Failure",
             "challenge": "Chronic CAD with progressive heart failure over 10 years.",
-            "solution": "Comprehensive cardiac intervention and medical optimization.",
+            "solution": "Comprehensive cardiac intervention and medication optimization.",
             "outcome": "Improved functional capacity.",
             "summary": "Long-term chronic disease management with expert coordination."
           },
           {
             "id": 6,
             "category": "cardiology",
-            "title": "Safe Cardiac Device Implantation in Elderly Patient: Restoring Normal Heart Rhythm",
+            "title": "Safe Cardiac Device Implantation in an Elderly Patient: Restoring Normal Heart Rhythm",
             "challenge": "89-year-old with symptomatic arrhythmia.",
             "solution": "Minimally invasive pacemaker implantation with perioperative safety protocols.",
             "outcome": "Successful device placement and restored rhythm.",
@@ -985,7 +985,7 @@
             "category": "surgery",
             "title": "Valve Reconstruction: Restoring Cardiac Function Through Surgical Precision",
             "challenge": "Severe valvular disease with heart failure.",
-            "solution": "Valve repair/replacement with advanced technique.",
+            "solution": "Valve repair/replacement with advanced techniques.",
             "outcome": "Restored function and symptom resolution.",
             "summary": "Complex valve surgery with international surgical expertise."
           },
@@ -994,9 +994,9 @@
             "category": "surgery",
             "title": "Minimally Invasive Aortic Valve Replacement: Advanced Surgical Innovation",
             "challenge": "Aortic valve disease.",
-            "solution": "Minimally invasive approach with small incision.",
+            "solution": "Minimally invasive approach with a small incision.",
             "outcome": "Successful replacement and rapid recovery.",
-            "summary": "Advanced surgical technique with premium patient outcomes."
+            "summary": "Advanced surgical technique with excellent patient outcomes."
           },
           {
             "id": 9,
@@ -1098,13 +1098,13 @@
         "preferredTime": "Preferred Consultation Time",
         "additionalNotes": "Additional Notes",
         "submit": "Submit",
-        "submitting": "Submitting...",
+        "submitting": "Submitting…",
         "successMessage": "Form submitted successfully",
         "errorMessage": "Submission failed. Please try again",
         "companyInfo": "Company Information",
-        "address": "Room 905, 9th Floor, First International Commercial Centre, 600-E Dr. Rodrigo Rodríguez Avenue, Macau",
+        "address": "Room 905, 9th Floor, First International Commercial Centre, 600-E Dr. Rodrigo Rodrigues Avenue, Macau",
         "businessHours": "Business Hours",
-        "businessHoursText": "Monday - Friday: 9:00 - 18:00",
+        "businessHoursText": "Monday–Friday: 9:00–18:00",
         "serviceTypes": {
           "medicalTrade": "Medical Trade",
           "consulting": "Healthcare Consulting",
@@ -1117,7 +1117,7 @@
         "quickLinks": "Quick Links",
         "contactInfo": "Contact Information",
         "businessHours": "Business Hours",
-        "businessHoursText": "Monday - Friday: 9:00 - 18:00",
+        "businessHoursText": "Monday–Friday: 9:00–18:00",
         "followUs": "Follow Us",
         "copyright": "© 2026 United Macao Bridge Holden Corporation Limited. All rights reserved.",
         "privacy": "Privacy Policy",
@@ -1134,9 +1134,9 @@
         "contact": "Contacto"
       },
       "hero": {
-        "headline": "Saúde Global. Soluções Precisas. Experiência Confiável.",
+        "headline": "Saúde Global. Soluções Precisas. Especialização de Confiança.",
         "subheading": "Conectando a Excelência Médica Global com Soluções Premium de Saúde Transfronteiriça.",
-        "tagline": "Excelência Médica Global. Soluções Precisas. Expertise Confiável ao Seu Lado.",
+        "tagline": "Excelência Médica Global. Soluções Precisas. Especialização de Confiança ao Seu Lado.",
         "ctaPrimary": "Contactar um Especialista",
         "ctaSecondary": "Obter um Plano Personalizado"
       },
@@ -1170,7 +1170,7 @@
       "advisoryBoardNew": {
         "hero": {
           "title": "Conselho Médico Consultivo Internacional",
-          "subtitle": "Conectando a Expertise Cardíaca Global com Cuidados de Saúde Transfronteiriços Premium",
+          "subtitle": "Conectando a Especialização Cardíaca Global com Cuidados de Saúde Transfronteiriços Premium",
           "cta1": "Contactar um Especialista",
           "cta2": "Agendar Consulta"
         },
@@ -1204,12 +1204,12 @@
               "desc": "A nossa equipa analisa o seu caso para identificar os especialistas mais adequados."
             },
             {
-              "title": "Correspondência de Especialistas",
-              "desc": "Conecte-se com os principais especialistas cardiovasculares internacionais."
+              "title": "Seleção de Especialistas",
+              "desc": "Entre em contacto com os principais especialistas cardiovasculares internacionais."
             },
             {
               "title": "Coordenação de Consulta Privada",
-              "desc": "Facilitando a revisão médica abrangente e o planeamento estratégico."
+              "desc": "Facilitamos a revisão médica abrangente e o planeamento estratégico."
             }
           ]
         },
@@ -1266,7 +1266,7 @@
       },
       "successStoriesNew": {
         "hero": {
-          "title": "Transformando Condições Cardíacas Críticas com Expertise Global",
+          "title": "Transformando Condições Cardíacas Críticas com Especialização Global",
           "subtitle": "Descubra como as nossas intervenções especializadas coordenadas e a colaboração médica internacional restauram a qualidade de vida de pacientes com doenças cardiovasculares complexas."
         },
         "disclaimer": "A United Macao Bridge Holden Corporation Limited fornece coordenação de consultas e correspondência de recursos especializados. A empresa NÃO fornece serviços de tratamento médico direto. Os serviços incluem: coordenação de recursos especializados, facilitação de consultas médicas, recomendações de gestão de saúde.",
@@ -1282,8 +1282,8 @@
           {
             "id": 1,
             "category": "cardiology",
-            "title": "Intervenção Crítica no Tempo: Restaurando a Perfusão Cardíaca na Janela de Ouro",
-            "challenge": "EAM agudo requerendo intervenção imediata.",
+            "title": "Intervenção Urgente: Restaurar a Perfusão Cardíaca na Janela de Ouro",
+            "challenge": "Enfarte agudo do miocárdio (EAM) a necessitar de intervenção imediata.",
             "solution": "Diagnóstico rápido e ICP.",
             "outcome": "Reperfusão bem-sucedida dentro da janela de 65 minutos.",
             "summary": "Resgate cardíaco de emergência com padrões de protocolo internacionais."
@@ -1291,7 +1291,7 @@
           {
             "id": 2,
             "category": "cardiology",
-            "title": "Recanalização de Oclusão Total Crónica: Restaurando o Fluxo Sanguíneo para Vaso Crítico",
+            "title": "Recanalização de Oclusão Total Crónica: Restaurar o Fluxo Sanguíneo num Vaso Crítico",
             "challenge": "Oclusão completa da ADA.",
             "solution": "Recanalização retrógrada avançada com stent.",
             "outcome": "Permeabilidade a longo prazo bem-sucedida.",
@@ -1300,7 +1300,7 @@
           {
             "id": 3,
             "category": "cardiology",
-            "title": "Intervenção Coronária em Múltiplas Fases: Transformando a Trajetória de Paciente de Alto Risco",
+            "title": "Intervenção Coronária em Múltiplas Fases: Transformar a Trajetória de um Paciente de Alto Risco",
             "challenge": "Doença de três vasos.",
             "solution": "Estratégia de intervenção faseada.",
             "outcome": "Melhoria da tolerância ao exercício e da qualidade de vida.",
@@ -1318,16 +1318,16 @@
           {
             "id": 5,
             "category": "cardiology",
-            "title": "Gestão de Doença a Longo Prazo: Restaurando a Qualidade de Vida na Insuficiência Cardíaca Complexa",
+            "title": "Gestão de Doença a Longo Prazo: Restaurar a Qualidade de Vida na Insuficiência Cardíaca Complexa",
             "challenge": "DAC crónica com insuficiência cardíaca progressiva ao longo de 10 anos.",
-            "solution": "Intervenção cardíaca abrangente e otimização médica.",
+            "solution": "Intervenção cardíaca abrangente e otimização da medicação.",
             "outcome": "Melhoria da capacidade funcional.",
             "summary": "Gestão de doença crónica a longo prazo com coordenação especializada."
           },
           {
             "id": 6,
             "category": "cardiology",
-            "title": "Implantação Segura de Dispositivo Cardíaco em Paciente Idoso: Restaurando o Ritmo Cardíaco Normal",
+            "title": "Implantação Segura de Dispositivo Cardíaco em Paciente Idoso: Restaurar o Ritmo Cardíaco Normal",
             "challenge": "Paciente de 89 anos com arritmia sintomática.",
             "solution": "Implantação de pacemaker minimamente invasiva com protocolos de segurança perioperatória.",
             "outcome": "Colocação bem-sucedida do dispositivo e ritmo restaurado.",
@@ -1336,7 +1336,7 @@
           {
             "id": 7,
             "category": "surgery",
-            "title": "Reconstrução Valvular: Restaurando a Função Cardíaca Através da Precisão Cirúrgica",
+            "title": "Reconstrução Valvular: Restaurar a Função Cardíaca Através da Precisão Cirúrgica",
             "challenge": "Doença valvular grave com insuficiência cardíaca.",
             "solution": "Reparação/substituição valvular com técnica avançada.",
             "outcome": "Função restaurada e resolução dos sintomas.",
@@ -1354,7 +1354,7 @@
           {
             "id": 9,
             "category": "surgery",
-            "title": "Reparação de Cardiopatia Congénita Complexa: Restaurando a Anatomia Cardíaca Normal",
+            "title": "Reparação de Cardiopatia Congénita Complexa: Restaurar a Anatomia Cardíaca Normal",
             "challenge": "Defeito cardíaco congénito complexo.",
             "solution": "Cirurgia cardíaca pediátrica especializada com reconstrução anatómica.",
             "outcome": "Reparação bem-sucedida e função normal.",
@@ -1372,7 +1372,7 @@
           {
             "id": 11,
             "category": "surgery",
-            "title": "Alívio da Obstrução do Trato de Saída do Ventrículo Esquerdo: Restaurando o Fluxo Cardíaco",
+            "title": "Alívio da Obstrução do Trato de Saída do Ventrículo Esquerdo: Restaurar o Fluxo Cardíaco",
             "challenge": "CMHO com obstrução significativa do TSVE.",
             "solution": "Miectomia septal cirúrgica com alívio do TSVE.",
             "outcome": "Obstrução eliminada e capacidade de exercício melhorada.",
@@ -1438,7 +1438,7 @@
       },
       "contact": {
         "title": "Contacte-nos",
-        "subtitle": "Conecte-se com a nossa equipa para iniciar a sua jornada de saúde",
+        "subtitle": "Contacte a nossa equipa para iniciar a sua jornada de saúde",
         "contactForm": "Formulário de Contacto",
         "consultationForm": "Formulário de Marcação de Consulta",
         "name": "Nome",
@@ -1451,13 +1451,13 @@
         "preferredTime": "Horário Preferido para Consulta",
         "additionalNotes": "Notas Adicionais",
         "submit": "Enviar",
-        "submitting": "A enviar...",
+        "submitting": "A enviar…",
         "successMessage": "Formulário enviado com sucesso",
         "errorMessage": "Falha no envio. Por favor, tente novamente",
         "companyInfo": "Informações da Empresa",
-        "address": "Sala 905, 9º Andar, Centro Comercial Internacional Primeiro, Avenida Dr. Rodrigo Rodríguez 600-E, Macau",
+        "address": "Sala 905, 9.º andar, First International Commercial Center, Avenida do Dr. Rodrigo Rodrigues, n.º 600-E, Macau",
         "businessHours": "Horário de Funcionamento",
-        "businessHoursText": "Segunda - Sexta: 9:00 - 18:00",
+        "businessHoursText": "Segunda a sexta-feira: 9:00–18:00",
         "serviceTypes": {
           "medicalTrade": "Comércio Médico",
           "consulting": "Consultoria de Saúde",
@@ -1466,11 +1466,11 @@
         }
       },
       "footer": {
-        "description": "Conectando Excelência Médica Global e Soluções de Cadeia de Suprimentos Transfronteiriça",
+        "description": "A ligar a excelência médica global a soluções transfronteiriças para a cadeia de abastecimento",
         "quickLinks": "Links Rápidos",
         "contactInfo": "Informações de Contacto",
         "businessHours": "Horário de Funcionamento",
-        "businessHoursText": "Segunda - Sexta: 9:00 - 18:00",
+        "businessHoursText": "Segunda a sexta-feira: 9:00–18:00",
         "followUs": "Siga-nos",
         "copyright": "© 2026 United Macao Bridge Holden Corporation Limited. Todos os direitos reservados.",
         "privacy": "Política de Privacidade",

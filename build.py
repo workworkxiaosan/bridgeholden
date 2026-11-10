@@ -63,6 +63,9 @@ LBL = {
     'notFound': {'zh-TW': '頁面不存在或已被移動', 'zh-CN': '页面不存在或已被移动',
                  'en': 'The page you are looking for does not exist or has been moved.',
                  'pt': 'A página que procura não existe ou foi movida.'},
+    'primaryNavigation': {'zh-TW': '主要導覽', 'zh-CN': '主要导航', 'en': 'Primary navigation', 'pt': 'Navegação principal'},
+    'mobileNavigation': {'zh-TW': '行動版導覽', 'zh-CN': '移动版导航', 'en': 'Mobile navigation', 'pt': 'Navegação móvel'},
+    'menu': {'zh-TW': '選單', 'zh-CN': '菜单', 'en': 'Menu', 'pt': 'Menu'},
 }
 
 def lbl(key, lang): return LBL[key][lang]
@@ -99,41 +102,68 @@ SERVICE_ICONS = {'medicalTrade': 'box', 'consulting': 'users', 'premium': 'heart
 SERVICE_IMAGES = {'medicalTrade': C['images']['service_trade'],
                   'consulting': C['images']['service_consulting'],
                   'premium': C['images']['service_premium']}
+IMAGE_SIZES = {
+    'logo.webp': (460, 447),
+    'logo-footer.webp': (460, 447),
+    'hero-home.webp': (1536, 1024),
+    'about-mission.webp': (1600, 1067),
+    'about-presence.webp': (1600, 1067),
+    'advisory-hero.webp': (1920, 1080),
+    'service-trade.webp': (1600, 1067),
+    'service-consulting.webp': (1600, 1068),
+    'expert-lemma.webp': (600, 683),
+    'expert-lavarra.webp': (600, 685),
+    'expert-scorsin.webp': (600, 683),
+    'expert-mangini.webp': (600, 683),
+    'expert-sirbu.webp': (600, 683),
+    'expert-desa.webp': (600, 683),
+}
+
+def image(filename, lang, alt, cls='', lazy=False, high_priority=False):
+    width, height = IMAGE_SIZES[filename]
+    class_attr = f' class="{cls}"' if cls else ''
+    loading = ' loading="lazy"' if lazy else ''
+    priority = ' fetchpriority="high"' if high_priority else ''
+    return (f'<img{class_attr} src="{asset("img/" + filename, lang)}" alt="{esc(alt)}" '
+            f'width="{width}" height="{height}"{loading} decoding="async"{priority}>')
 
 def lang_switcher(page, lang, extra_class=''):
     label = next(l['label'] for l in C['languages'] if l['code'] == lang)
     items = ''.join(
-        f'<a href="{page_href(page, l["code"], lang)}" class="{"current" if l["code"] == lang else ""}">{l["flag"]} {esc(l["label"])}</a>'
+        f'<a href="{page_href(page, l["code"], lang)}" hreflang="{l["code"]}" lang="{l["code"]}" '
+        f'class="{"current" if l["code"] == lang else ""}"'
+        f'{" aria-current=page" if l["code"] == lang else ""}>{l["flag"]} {esc(l["label"])}</a>'
         for l in C['languages'])
     return f'''<div class="lang-switch {extra_class}">
-        <button type="button" aria-haspopup="true">{esc(label)}{icon('chevron-down')}</button>
+        <button type="button" aria-expanded="false">{esc(label)}{icon('chevron-down')}</button>
         <div class="dropdown">{items}</div>
       </div>'''
 
 # ---------------- 頁頭 / 頁尾 ----------------
 def header(page, lang):
     nav = I18N[lang]['nav']
-    logo = asset('img/logo.webp', lang)
     links = ''.join(
-        f'<a href="{page_href(p, lang, lang)}" class="{"active" if p == page else ""}">{esc(nav[NAV_KEY[p]])}</a>'
+        f'<a href="{page_href(p, lang, lang)}" class="{"active" if p == page else ""}"'
+        f'{" aria-current=page" if p == page else ""}>{esc(nav[NAV_KEY[p]])}</a>'
         for p in PAGES)
     mlinks = ''.join(
-        f'<a href="{page_href(p, lang, lang)}" class="mnav {"active" if p == page else ""}">{esc(nav[NAV_KEY[p]])}</a>'
+        f'<a href="{page_href(p, lang, lang)}" class="mnav {"active" if p == page else ""}"'
+        f'{" aria-current=page" if p == page else ""}>{esc(nav[NAV_KEY[p]])}</a>'
         for p in PAGES)
     return f'''<header class="site-header">
   <div class="container">
     <div class="header-inner">
-      <a href="{page_href('index', lang, lang)}"><img class="logo" src="{logo}" alt="{esc(C['site_name_en'])}"></a>
-      <nav class="main-nav">{links}</nav>
+      <a href="{page_href('index', lang, lang)}">{image('logo.webp', lang, site_name_for(lang), cls='logo')}</a>
+      <nav class="main-nav" aria-label="{esc(lbl('primaryNavigation', lang))}">{links}</nav>
       <div class="header-actions">
         {lang_switcher(page, lang)}
-        <button class="menu-toggle" id="menu-toggle" aria-label="Menu">{icon('menu')}</button>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-label="{esc(lbl('menu', lang))}" aria-controls="mobile-panel">{icon('menu')}</button>
       </div>
     </div>
   </div>
   <div class="mobile-panel" id="mobile-panel">
     <div class="container">
-      {mlinks}
+      <nav aria-label="{esc(lbl('mobileNavigation', lang))}">{mlinks}</nav>
       {lang_switcher(page, lang)}
     </div>
   </div>
@@ -143,20 +173,23 @@ def footer(page, lang):
     nav = I18N[lang]['nav']
     ft = I18N[lang]['footer']
     ct = I18N[lang]['contact']
-    logo = asset('img/logo-footer.webp', lang)
     links = ''.join(
         f'<li><a href="{page_href(p, lang, lang)}">{esc(nav[NAV_KEY[p]])}</a></li>' for p in PAGES)
-    social = ''.join(f'<a href="{C["social"][s]}" aria-label="{label}">{icon(s)}</a>' for s, label in SOCIAL)
+    social = ''.join(
+        f'<a href="{esc(C["social"][s])}" aria-label="{label}">{icon(s)}</a>'
+        for s, label in SOCIAL if C['social'].get(s) and C['social'][s] != '#')
+    social_section = (f'<h4>{esc(ft["followUs"])}</h4><div class="social-row">{social}</div>'
+                      if social else '')
     return f'''<footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <img class="logo" src="{logo}" alt="{esc(C['site_name_en'])}">
+        {image('logo-footer.webp', lang, site_name_for(lang), cls='logo', lazy=True)}
         <p class="desc">{esc(t(lang, 'hero', 'subheading'))}</p>
       </div>
       <div>
         <h4>{esc(ft['quickLinks'])}</h4>
-        <ul>{links}</ul>
+        <nav aria-label="{esc(ft['quickLinks'])}"><ul>{links}</ul></nav>
       </div>
       <div>
         <h4>{esc(ft['contactInfo'])}</h4>
@@ -171,17 +204,12 @@ def footer(page, lang):
         </div>
       </div>
       <div>
-        <h4>{esc(ft['followUs'])}</h4>
-        <div class="social-row">{social}</div>
+        {social_section}
         <div class="footer-lang">{lang_switcher(page, lang)}</div>
       </div>
     </div>
     <div class="footer-bottom">
       <p>{esc(ft['copyright'])}</p>
-      <div class="links">
-        <a href="#">{esc(ft['privacy'])}</a>
-        <a href="#">{esc(ft['terms'])}</a>
-      </div>
     </div>
   </div>
 </footer>'''
@@ -191,19 +219,26 @@ def site_name_for(lang):
     if lang == 'zh-TW': return C['site_name']
     return C['site_name_en']
 
-def page_shell(page, lang, title, description, body, body_class=''):
+def page_shell(page, lang, title, description, body, body_class='', noindex=False):
     css = asset('css/style.css', lang)
     js = asset('js/main.js', lang)
-    lang_links = ''.join(
-        f'<link rel="alternate" hreflang="{l}" href="{abs_url(page, l)}">'
-        for l in LANGS)
-    canonical = abs_url(page, lang)
     base = C.get('site_url', 'https://bridgeholdengroup.com').rstrip('/')
+    canonical = f'{base}/404.html' if noindex else abs_url(page, lang)
+    lang_links = '' if noindex else ''.join(
+        f'<link rel="alternate" hreflang="{l}" href="{abs_url(page, l)}">'
+        for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{abs_url(page, DEFAULT)}">'
+    canonical_tag = '' if noindex else f'<link rel="canonical" href="{canonical}">'
+    robots_tag = '<meta name="robots" content="noindex">' if noindex else ''
     og_image = base + '/assets/img/hero-home.webp'
-    og_locale = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT'}[lang]
+    og_image_width, og_image_height = IMAGE_SIZES[C['images']['hero_home']]
+    og_locales = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT'}
+    og_locale = og_locales[lang]
+    og_locale_alternates = ''.join(
+        f'<meta property="og:locale:alternate" content="{locale}">'
+        for code, locale in og_locales.items() if code != lang)
     site_name = site_name_for(lang)
     jsonld = ''
-    if page == 'index':
+    if page == 'index' and not noindex:
         jsonld = f'''<script type="application/ld+json">
   {{"@context":"https://schema.org","@type":"Organization","name":"{site_name}","alternateName":"{C['site_name_en']}","url":"{base}","logo":"{base}/assets/img/logo-footer.webp","email":"{C['email']}"}}
   </script>'''
@@ -215,14 +250,19 @@ def page_shell(page, lang, title, description, body, body_class=''):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)} - {esc(C['site_name_en'])}</title>
   <meta name="description" content="{esc(description)}">
-  <link rel="canonical" href="{canonical}">
+  {canonical_tag}
+  {robots_tag}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{esc(site_name)}">
   <meta property="og:locale" content="{og_locale}">
+  {og_locale_alternates}
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{canonical}">
   <meta property="og:image" content="{og_image}">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="{og_image_width}">
+  <meta property="og:image:height" content="{og_image_height}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(description)}">
@@ -264,7 +304,7 @@ def render_index(lang):
       </div>''' for k in ['medicalTrade', 'consulting', 'premium'])
     body = f'''
 <section class="hero-home">
-  <div class="hero-bg"><img src="{asset('img/' + C['images']['hero_home'], lang)}" alt="Professional medical team"></div>
+  <div class="hero-bg">{image(C['images']['hero_home'], lang, '', high_priority=True)}</div>
   <div class="hero-content">
     <h1>{esc(hero['tagline'])}</h1>
     <p>{esc(t(lang, 'company', 'description'))}</p>
@@ -315,7 +355,7 @@ def render_about(lang):
         <h2 class="section-title" style="margin-bottom:1.5rem;">{esc(ab['mission'])}</h2>
         <p style="font-size:1.125rem;color:var(--gray-600);line-height:1.625;">{esc(ab['missionText'])}</p>
       </div>
-      <div class="reveal"><img src="{asset('img/' + C['images']['about_mission'], lang)}" alt="Medical team collaboration" loading="lazy" decoding="async"></div>
+      <div class="reveal">{image(C['images']['about_mission'], lang, ab['mission'], lazy=True)}</div>
     </div>
   </div>
 </section>
@@ -329,7 +369,7 @@ def render_about(lang):
 <section class="section about-sec-white">
   <div class="container">
     <div class="split">
-      <div class="reveal"><img src="{asset('img/' + C['images']['about_presence'], lang)}" alt="Global presence" loading="lazy" decoding="async"></div>
+      <div class="reveal">{image(C['images']['about_presence'], lang, ab['presence'], lazy=True)}</div>
       <div class="reveal">
         <h2 class="section-title" style="margin-bottom:1.5rem;">{esc(ab['presence'])}</h2>
         <p style="font-size:1.125rem;color:var(--gray-600);line-height:1.625;">{esc(ab['presenceText'])}</p>
@@ -362,7 +402,7 @@ def render_services(lang):
           </div>
           <a class="btn btn-blue" href="{page_href('contact', lang, lang)}">{esc(s['cta'])}</a>
         </div>'''
-        img_col = f'''<div class="reveal"><img src="{asset('img/' + SERVICE_IMAGES[k], lang)}" alt="{esc(s['title'])}" loading="lazy" decoding="async"></div>'''
+        img_col = f'''<div class="reveal">{image(SERVICE_IMAGES[k], lang, s['title'], lazy=True)}</div>'''
         cols = (text_col + img_col) if i % 2 == 0 else (img_col + text_col)
         rows += f'''
       <div class="svc-row split">{cols}
@@ -389,7 +429,7 @@ def render_advisory(lang):
         </div>''' for c in ab['categories'])
     experts = ''.join(f'''
         <div class="expert-card reveal">
-          <div class="photo"><img src="{asset('img/' + e['image'], lang)}" alt="{esc(e['name'])}" loading="lazy" decoding="async"></div>
+          <div class="photo">{image(e['image'], lang, e['name'], lazy=True)}</div>
           <div class="body">
             <p class="cat">{esc(e['category'])}</p>
             <h3>{esc(e['name'])}</h3>
@@ -407,7 +447,7 @@ def render_advisory(lang):
         <a class="btn btn-gold-outline" href="{page_href('contact', lang, lang)}">{esc(ab['hero']['cta2'])}</a>'''
     body = f'''
 <section class="hero-luxury">
-  <div class="hero-bg"><img src="{asset('img/' + C['images']['advisory_hero'], lang)}" alt="Premium Medical Facility"></div>
+  <div class="hero-bg">{image(C['images']['advisory_hero'], lang, '', high_priority=True)}</div>
   <div class="container hero-content">
     <h1>{esc(ab['hero']['title'])}</h1>
     <p>{esc(ab['hero']['subtitle'])}</p>
@@ -483,13 +523,13 @@ def render_stories(lang):
 <div class="disclaimer-bar"><p>{esc(ss['disclaimer'])}</p></div>
 <section class="stories-sec">
   <div class="container" data-tabs>
-    <div class="story-tabs">
-      <button type="button" data-tab="cardiology" class="active">🫀 {esc(ss['categories']['cardiology'])}</button>
-      <button type="button" data-tab="surgery">❤️ {esc(ss['categories']['surgery'])}</button>
+    <div class="story-tabs" role="tablist" aria-label="{esc(ss['hero']['title'])}">
+      <button type="button" role="tab" id="story-tab-cardiology" data-tab="cardiology" class="active" aria-selected="true"><span aria-hidden="true">🫀</span> {esc(ss['categories']['cardiology'])}</button>
+      <button type="button" role="tab" id="story-tab-surgery" data-tab="surgery" aria-selected="false"><span aria-hidden="true">❤️</span> {esc(ss['categories']['surgery'])}</button>
     </div>
-    <div data-pane="cardiology" class="active"><div class="grid grid-3">{groups['cardiology']}
+    <div data-pane="cardiology" class="active" role="tabpanel" aria-labelledby="story-tab-cardiology"><div class="grid grid-3">{groups['cardiology']}
     </div></div>
-    <div data-pane="surgery"><div class="grid grid-3">{groups['surgery']}
+    <div data-pane="surgery" role="tabpanel" aria-labelledby="story-tab-surgery"><div class="grid grid-3">{groups['surgery']}
     </div></div>
   </div>
 </section>
@@ -513,47 +553,50 @@ def render_contact(lang):
     ct = I18N[lang]['contact']
     err_req, err_email = esc(lbl('errRequired', lang)), esc(lbl('errEmail', lang))
     opts = ''.join(f'<option value="{k}">{esc(v)}</option>' for k, v in ct['serviceTypes'].items())
-    def field(fid, label, ftype='text', required=False, extra=''):
+    def field(fid, label, ftype='text', required=False, autocomplete=''):
         req = ' *' if required else ''
         reqattr = ' required' if required else ''
+        autocomplete_attr = f' autocomplete="{autocomplete}"' if autocomplete else ''
+        inputmode = f' inputmode="{ftype}"' if ftype in ('email', 'tel') else ''
+        email_attrs = ' autocapitalize="none" spellcheck="false"' if ftype == 'email' else ''
         return f'''<div class="form-group">
             <label for="{fid}">{esc(label)}{req}</label>
-            {extra if extra else f'<input id="{fid}" name="{fid}" type="{ftype}"{reqattr}>'}
-            <p class="err"></p>
+            <input id="{fid}" name="{fid}" type="{ftype}"{reqattr}{autocomplete_attr}{inputmode}{email_attrs} aria-describedby="{fid}-error">
+            <p class="err" id="{fid}-error" role="alert"></p>
           </div>'''
-    contact_form = f'''<form class="ajax-form" data-err-required="{err_req}" data-err-email="{err_email}" data-submitting="{esc(ct['submitting'])}" novalidate>
-          {field('name', ct['name'], required=True)}
-          {field('company', ct['company'])}
-          {field('country', ct['country'])}
-          {field('phone', ct['phone'], 'tel', required=True)}
-          {field('email', ct['email'], 'email', required=True)}
+    contact_form = f'''<form class="ajax-form" aria-label="{esc(ct['contactForm'])}" data-err-required="{err_req}" data-err-email="{err_email}" data-submitting="{esc(ct['submitting'])}" novalidate>
+          {field('name', ct['name'], required=True, autocomplete='name')}
+          {field('company', ct['company'], autocomplete='organization')}
+          {field('country', ct['country'], autocomplete='country-name')}
+          {field('phone', ct['phone'], 'tel', required=True, autocomplete='tel')}
+          {field('email', ct['email'], 'email', required=True, autocomplete='email')}
           <div class="form-group">
             <label for="message">{esc(ct['message'])} *</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <p class="err"></p>
+            <textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea>
+            <p class="err" id="message-error" role="alert"></p>
           </div>
           <button type="submit" class="btn btn-blue form-submit">{esc(ct['submit'])}</button>
-          <div class="form-toast">{icon('check')}{esc(ct['successMessage'])}</div>
+          <div class="form-toast" role="status" aria-atomic="true">{icon('check')}{esc(ct['successMessage'])}</div>
         </form>'''
-    consult_form = f'''<form class="ajax-form" data-err-required="{err_req}" data-err-email="{err_email}" data-submitting="{esc(ct['submitting'])}" novalidate>
-          {field('c-name', ct['name'], required=True)}
-          {field('c-email', ct['email'], 'email', required=True)}
+    consult_form = f'''<form class="ajax-form" aria-label="{esc(ct['consultationForm'])}" data-err-required="{err_req}" data-err-email="{err_email}" data-submitting="{esc(ct['submitting'])}" novalidate>
+          {field('c-name', ct['name'], required=True, autocomplete='name')}
+          {field('c-email', ct['email'], 'email', required=True, autocomplete='email')}
           <div class="form-group">
             <label for="serviceType">{esc(ct['serviceType'])} *</label>
-            <select id="serviceType" name="serviceType" required>
+            <select id="serviceType" name="serviceType" required aria-describedby="serviceType-error">
               <option value="">{esc(ct['serviceType'])}</option>
               {opts}
             </select>
-            <p class="err"></p>
+            <p class="err" id="serviceType-error" role="alert"></p>
           </div>
           {field('preferredTime', ct['preferredTime'], 'datetime-local')}
           <div class="form-group">
             <label for="additionalNotes">{esc(ct['additionalNotes'])}</label>
-            <textarea id="additionalNotes" name="additionalNotes" rows="4"></textarea>
-            <p class="err"></p>
+            <textarea id="additionalNotes" name="additionalNotes" rows="4" aria-describedby="additionalNotes-error"></textarea>
+            <p class="err" id="additionalNotes-error" role="alert"></p>
           </div>
           <button type="submit" class="btn btn-blue form-submit">{esc(ct['submit'])}</button>
-          <div class="form-toast">{icon('check')}{esc(ct['successMessage'])}</div>
+          <div class="form-toast" role="status" aria-atomic="true">{icon('check')}{esc(ct['successMessage'])}</div>
         </form>'''
     info_rows = f'''
           <div class="info-row">
@@ -583,14 +626,14 @@ def render_contact(lang):
   <div class="container">
     <div class="contact-grid">
       <div data-tabs>
-        <div class="form-tabs">
-          <button type="button" data-tab="contact" class="active">{esc(ct['contactForm'])}</button>
-          <button type="button" data-tab="consultation">{esc(ct['consultationForm'])}</button>
+        <div class="form-tabs" role="tablist" aria-label="{esc(ct['title'])}">
+          <button type="button" role="tab" id="form-tab-contact" data-tab="contact" class="active" aria-selected="true">{esc(ct['contactForm'])}</button>
+          <button type="button" role="tab" id="form-tab-consultation" data-tab="consultation" aria-selected="false">{esc(ct['consultationForm'])}</button>
         </div>
-        <div class="form-card active" data-pane="contact">
+        <div class="form-card active" data-pane="contact" role="tabpanel" aria-labelledby="form-tab-contact">
           {contact_form}
         </div>
-        <div class="form-card" data-pane="consultation">
+        <div class="form-card" data-pane="consultation" role="tabpanel" aria-labelledby="form-tab-consultation">
           {consult_form}
         </div>
       </div>
@@ -631,7 +674,7 @@ def build():
   </div>
 </section>'''
     with open(os.path.join(DIST, '404.html'), 'w', encoding='utf-8') as f:
-        f.write(page_shell('index', DEFAULT, '404', 'Page not found', not_found_body))
+        f.write(page_shell('index', DEFAULT, '404', 'Page not found', not_found_body, noindex=True))
 
     count = 2
     urls = []

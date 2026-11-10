@@ -33,3 +33,11 @@
 - 每頁帶 canonical / Open Graph / Twitter Card 與 hreflang；`content.json` 的 `site_url` 是絕對 URL 基準，換域名時改它（CNAME 也隨之更新）。
 - 域名 `bridgeholdengroup.com`（2026-10 已切換到 GitHub Pages）：DNS 在 Hostinger（NS: dns-parking.com），A 記錄 → 185.199.108.153/109.153/110.153/111.153，`www` CNAME → `workworkxiaosan.github.io`；MX/TXT（Hostinger 郵箱 mx1/mx2.hostinger.com.hk + SPF）保留不動。Hostinger DNS 可用 API 管理（`PUT/DELETE https://developers.hostinger.com/api/dns/v1/zones/{domain}`，PUT 用 `{"zone":[...]}`，DELETE 用 `{"filters":[{name,type}]}`；@ 上 ALIAS 與 A 互斥，須先 DELETE ALIAS）。
 - GitHub 倉庫：`workworkxiaosan/bridgeholden`（公開，GitHub Pages workflow 模式，本機 gh CLI 已登錄 workworkxiaosan）。
+
+## 2026-11-11 月度優化與中斷復原
+
+- 本次已優化：全部圖片輸出真實 `width`/`height`，首頁與顧問頁主視覺使用 `fetchpriority="high"`；24 頁補 `hreflang="x-default"` 與 OG locale/image 元數據；404 改為 `noindex` 且不再 canonical 到首頁；導航、語言切換、tabs、表單補齊 ARIA/鍵盤操作與 autocomplete；修正低對比度文字/焦點框及四語言文案。社交、隱私、條款仍無真實 URL 時不輸出 `href="#"` 佔位連結。
+- 滾動淡入採用安全降級：`.reveal` 預設可見，JS 只對視窗外元素加 `.reveal-pending`；首屏內容立即顯示，無 IntersectionObserver 或 JS 失效時不得隱藏正文。新增圖片時須在 `build.py` 的 `IMAGE_SIZES` 登記真實尺寸，並經 `image()` helper 輸出。
+- 2026-11-06/07 月度任務中斷的真實原因是舊 Kimi 對話向 API 重複提交 `mcp__desktop_browser__run` 工具（400 `duplicate tool name`）；不是網站程式、GitHub Pages 或 DNS 故障。檢查 `~/.kimi-code/config.toml` 及各層 `mcp.json` 未見重複配置，不要為此亂改配置。
+- 防再發：瀏覽器工具每個新對話只用 `select_tools` 加載一次；若再出現 `duplicate tool name`，直接新建對話並從 Git 工作樹恢復，不要在損壞的舊對話反覆「繼續」。多代理分工時不得同時運行 `build.py`（會重建整個 `dist/`），由主代理統一建置與驗收。
+- 更新後除了 `python3 build.py`，還須跑 `node --check assets/js/main.js`、`python3 -m json.tool content.json` 及內部連結/圖片檢查；推送後用 `gh run watch` 或 `gh run list` 確認 Pages 部署成功，再以線上 URL 驗證，不可只憑本地成功就宣稱完成。

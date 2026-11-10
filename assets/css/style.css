@@ -53,7 +53,7 @@ a { text-decoration: none; color: inherit; }
   transition: color .2s;
 }
 .main-nav a:hover { color: var(--blue); }
-.main-nav a.active { color: var(--blue); border-bottom-color: var(--blue); }
+.main-nav a.active { color: var(--blue-dark); border-bottom-color: var(--blue); }
 .header-actions { display: flex; align-items: center; gap: 1rem; }
 @media (min-width: 1024px) { .main-nav { display: flex; } }
 
@@ -88,14 +88,15 @@ a { text-decoration: none; color: inherit; }
 .mobile-panel a.mnav {
   display: block; padding: .5rem 0; font-size: .875rem; font-weight: 500; color: var(--gray-700);
 }
-.mobile-panel a.mnav.active { color: var(--blue); }
+.mobile-panel a.mnav.active { color: var(--blue-dark); }
 .mobile-panel .lang-switch { margin-top: 1rem; }
 .mobile-panel .lang-switch > button { width: 100%; justify-content: center; }
 .mobile-panel .lang-switch .dropdown { position: static; box-shadow: none; border: none; }
 
 /* ---------- 通用 ---------- */
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
-.reveal.visible { opacity: 1; transform: none; }
+.reveal { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s ease; }
+.reveal.reveal-pending { opacity: 0; transform: translateY(20px); }
+.reveal.reveal-pending.visible { opacity: 1; transform: none; }
 
 .section { padding: 5rem 0; }
 .section-lg { padding: 6rem 0; }
@@ -393,7 +394,7 @@ a { text-decoration: none; color: inherit; }
 @media (min-width: 640px) { .story-tabs { flex-direction: row; } }
 .story-tabs button {
   font-family: inherit; font-size: 1.125rem; padding: 1rem 2rem; cursor: pointer;
-  background: transparent; color: var(--gold); border: 1px solid var(--gold);
+  background: transparent; color: var(--navy); border: 1px solid var(--gold);
   transition: all .3s;
 }
 .story-tabs button.active { background: var(--gold); color: var(--navy); }
@@ -411,7 +412,7 @@ a { text-decoration: none; color: inherit; }
 .case-card .field { margin-bottom: 1.5rem; }
 .case-card .field h4 {
   font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--gold); margin-bottom: .5rem;
+  color: var(--navy); margin-bottom: .5rem;
 }
 .case-card .field p { font-size: .875rem; color: rgba(15,20,25,.8); line-height: 1.625; }
 .case-card .quote {
@@ -475,7 +476,7 @@ a { text-decoration: none; color: inherit; }
 .info-row .icon-badge svg { width: 1.25rem; height: 1.25rem; color: var(--blue); }
 .info-row .k { font-weight: 500; color: var(--deep-navy); margin-bottom: .25rem; }
 .info-row .v { color: var(--gray-600); }
-.info-row a.v { color: var(--blue); }
+.info-row a.v { color: var(--blue-dark); }
 .info-row a.v:hover { text-decoration: underline; }
 
 /* ---------- Footer ---------- */
@@ -531,6 +532,7 @@ a { text-decoration: none; color: inherit; }
 ::selection { background: rgba(212,175,55,.35); }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
   outline: 2px solid var(--gold); outline-offset: 2px; border-radius: .25rem;
+  box-shadow: 0 0 0 4px var(--navy);
 }
 html[lang^="zh"] .hero-home h1,
 html[lang^="zh"] .h-blue-hero h1,
