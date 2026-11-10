@@ -524,12 +524,12 @@ def render_stories(lang):
 <section class="stories-sec">
   <div class="container" data-tabs>
     <div class="story-tabs" role="tablist" aria-label="{esc(ss['hero']['title'])}">
-      <button type="button" role="tab" id="story-tab-cardiology" data-tab="cardiology" class="active" aria-selected="true"><span aria-hidden="true">🫀</span> {esc(ss['categories']['cardiology'])}</button>
-      <button type="button" role="tab" id="story-tab-surgery" data-tab="surgery" aria-selected="false"><span aria-hidden="true">❤️</span> {esc(ss['categories']['surgery'])}</button>
+      <button type="button" role="tab" id="story-tab-cardiology" data-tab="cardiology" class="active" aria-selected="true" aria-controls="story-pane-cardiology"><span aria-hidden="true">🫀</span> {esc(ss['categories']['cardiology'])}</button>
+      <button type="button" role="tab" id="story-tab-surgery" data-tab="surgery" aria-selected="false" aria-controls="story-pane-surgery" tabindex="-1"><span aria-hidden="true">❤️</span> {esc(ss['categories']['surgery'])}</button>
     </div>
-    <div data-pane="cardiology" class="active" role="tabpanel" aria-labelledby="story-tab-cardiology"><div class="grid grid-3">{groups['cardiology']}
+    <div data-pane="cardiology" id="story-pane-cardiology" class="active" role="tabpanel" aria-labelledby="story-tab-cardiology"><div class="grid grid-3">{groups['cardiology']}
     </div></div>
-    <div data-pane="surgery" role="tabpanel" aria-labelledby="story-tab-surgery"><div class="grid grid-3">{groups['surgery']}
+    <div data-pane="surgery" id="story-pane-surgery" role="tabpanel" aria-labelledby="story-tab-surgery" hidden><div class="grid grid-3">{groups['surgery']}
     </div></div>
   </div>
 </section>
@@ -627,13 +627,13 @@ def render_contact(lang):
     <div class="contact-grid">
       <div data-tabs>
         <div class="form-tabs" role="tablist" aria-label="{esc(ct['title'])}">
-          <button type="button" role="tab" id="form-tab-contact" data-tab="contact" class="active" aria-selected="true">{esc(ct['contactForm'])}</button>
-          <button type="button" role="tab" id="form-tab-consultation" data-tab="consultation" aria-selected="false">{esc(ct['consultationForm'])}</button>
+          <button type="button" role="tab" id="form-tab-contact" data-tab="contact" class="active" aria-selected="true" aria-controls="form-pane-contact">{esc(ct['contactForm'])}</button>
+          <button type="button" role="tab" id="form-tab-consultation" data-tab="consultation" aria-selected="false" aria-controls="form-pane-consultation" tabindex="-1">{esc(ct['consultationForm'])}</button>
         </div>
-        <div class="form-card active" data-pane="contact" role="tabpanel" aria-labelledby="form-tab-contact">
+        <div class="form-card active" data-pane="contact" id="form-pane-contact" role="tabpanel" aria-labelledby="form-tab-contact">
           {contact_form}
         </div>
-        <div class="form-card" data-pane="consultation" role="tabpanel" aria-labelledby="form-tab-consultation">
+        <div class="form-card" data-pane="consultation" id="form-pane-consultation" role="tabpanel" aria-labelledby="form-tab-consultation" hidden>
           {consult_form}
         </div>
       </div>

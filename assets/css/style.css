@@ -397,7 +397,7 @@ a { text-decoration: none; color: inherit; }
   background: transparent; color: var(--navy); border: 1px solid var(--gold);
   transition: all .3s;
 }
-.story-tabs button.active { background: var(--gold); color: var(--navy); }
+.story-tabs button[aria-selected="true"] { background: var(--gold); color: var(--navy); }
 .case-card {
   background: #fff; border-top: 4px solid var(--gold); border-radius: 0 0 .75rem .75rem;
   box-shadow: 0 10px 15px -3px rgba(0,0,0,.1); padding: 2rem;
@@ -440,7 +440,7 @@ a { text-decoration: none; color: inherit; }
   background: transparent; border: none; border-radius: .375rem; cursor: pointer; color: var(--gray-600);
   transition: all .2s;
 }
-.form-tabs button.active { background: #fff; color: var(--navy); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.form-tabs button[aria-selected="true"] { background: #fff; color: var(--navy); box-shadow: 0 1px 3px rgba(0,0,0,.1); }
 .form-card { background: var(--gray-50); border-radius: 1rem; padding: 2rem; }
 .form-group { margin-bottom: 1.5rem; }
 .form-group label { display: block; font-weight: 500; color: var(--deep-navy); margin-bottom: .5rem; }
